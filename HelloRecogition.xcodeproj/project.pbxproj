@@ -101,6 +101,62 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		CD27606B1FD4F1FA0053D131 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CD27606C1FD4F1FA0053D131 /* Mnanager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Mnanager;
+			sourceTree = "<group>";
+		};
+		CD27606D1FD4F1FB0053D131 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		CD27606E1FD4F1FB0053D131 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		CD27606F1FD4F1FB0053D131 /* Net */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Net;
+			sourceTree = "<group>";
+		};
+		CD2760701FD4F1FB0053D131 /* Vender */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vender;
+			sourceTree = "<group>";
+		};
+		CD2760711FD4F1FB0053D131 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		CD2760721FD4F1FC0053D131 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		CDE6B7FD1FD4E6AC00003634 = {
 			isa = PBXGroup;
 			children = (
@@ -126,6 +182,14 @@
 		CDE6B8081FD4E6AC00003634 /* HelloRecogition */ = {
 			isa = PBXGroup;
 			children = (
+				CD2760711FD4F1FB0053D131 /* Base */,
+				CD27606E1FD4F1FB0053D131 /* Category */,
+				CD27606B1FD4F1FA0053D131 /* Controller */,
+				CD27606C1FD4F1FA0053D131 /* Mnanager */,
+				CD2760721FD4F1FC0053D131 /* Model */,
+				CD27606F1FD4F1FB0053D131 /* Net */,
+				CD27606D1FD4F1FB0053D131 /* Resource */,
+				CD2760701FD4F1FB0053D131 /* Vender */,
 				CD27606A1FD4EF960053D131 /* PrefixHeader.pch */,
 				CDE6B8091FD4E6AC00003634 /* AppDelegate.h */,
 				CDE6B80A1FD4E6AC00003634 /* AppDelegate.m */,
