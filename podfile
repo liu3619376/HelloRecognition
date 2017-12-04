@@ -1,0 +1,43 @@
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '8.0'
+inhibit_all_warnings!
+
+target 'HelloRecogition' do
+
+    pod 'SDWebImage', '~>3.8'
+    #    pod 'SDWebImage/WebP'
+    pod 'Masonry'
+    pod 'JSONModel'
+
+    pod 'FMDB'
+    pod 'MJExtension'
+    pod 'MJRefresh'
+    pod 'MBProgressHUD', '~> 1.0.0'
+    #友盟分享、统计
+    pod 'UMengAnalytics-NO-IDFA'
+    # 集成新浪微博
+    pod 'UMengUShare/Social/Sina'
+    # 集成微信
+    pod 'UMengUShare/Social/WeChat'
+    # 集成QQ
+    pod 'UMengUShare/Social/QQ'
+
+    pod 'pop'
+    #键盘自动优化textfield
+    pod 'IQKeyboardManager'
+    
+    pod 'FLAnimatedImage', '~> 1.0'
+    
+    pod 'SWTableViewCell', '~> 0.3.7'
+    
+    pod 'JWNetAutoCache'
+    pod 'FDFullscreenPopGesture', '1.1'
+
+    pod 'YYKit', '~> 1.0.9’
+    pod 'RTRootNavigationController', '~>0.6.3'
+
+    #图片渲染
+    pod 'GPUImage'
+end
+
+

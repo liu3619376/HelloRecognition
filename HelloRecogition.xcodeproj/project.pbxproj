@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CC39DC9A378248C237E8325F /* libPods-HelloRecogition.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 23203F38C16EFF40F16A4E85 /* libPods-HelloRecogition.a */; };
 		CDE6B80B1FD4E6AC00003634 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CDE6B80A1FD4E6AC00003634 /* AppDelegate.m */; };
 		CDE6B80E1FD4E6AC00003634 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDE6B80D1FD4E6AC00003634 /* ViewController.m */; };
 		CDE6B8111FD4E6AC00003634 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDE6B80F1FD4E6AC00003634 /* Main.storyboard */; };
@@ -35,6 +36,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		23203F38C16EFF40F16A4E85 /* libPods-HelloRecogition.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HelloRecogition.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		55E0990D85C3EBB08F1B7509 /* Pods-HelloRecogition.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloRecogition.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HelloRecogition/Pods-HelloRecogition.debug.xcconfig"; sourceTree = "<group>"; };
+		93F84EBE8DADDEAFD41CD86D /* Pods-HelloRecogition.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloRecogition.release.xcconfig"; path = "Pods/Target Support Files/Pods-HelloRecogition/Pods-HelloRecogition.release.xcconfig"; sourceTree = "<group>"; };
 		CDE6B8061FD4E6AC00003634 /* HelloRecogition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloRecogition.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDE6B8091FD4E6AC00003634 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CDE6B80A1FD4E6AC00003634 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -58,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC39DC9A378248C237E8325F /* libPods-HelloRecogition.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +83,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2723C64C3FAD86B9B627823F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				23203F38C16EFF40F16A4E85 /* libPods-HelloRecogition.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BAFDB8C2842FD33216C1E243 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				55E0990D85C3EBB08F1B7509 /* Pods-HelloRecogition.debug.xcconfig */,
+				93F84EBE8DADDEAFD41CD86D /* Pods-HelloRecogition.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		CDE6B7FD1FD4E6AC00003634 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +107,8 @@
 				CDE6B8211FD4E6AD00003634 /* HelloRecogitionTests */,
 				CDE6B82C1FD4E6AD00003634 /* HelloRecogitionUITests */,
 				CDE6B8071FD4E6AC00003634 /* Products */,
+				BAFDB8C2842FD33216C1E243 /* Pods */,
+				2723C64C3FAD86B9B627823F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -139,9 +163,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CDE6B8321FD4E6AD00003634 /* Build configuration list for PBXNativeTarget "HelloRecogition" */;
 			buildPhases = (
+				3F5DEFDCA960CE325C36E5A7 /* [CP] Check Pods Manifest.lock */,
 				CDE6B8021FD4E6AC00003634 /* Sources */,
 				CDE6B8031FD4E6AC00003634 /* Frameworks */,
 				CDE6B8041FD4E6AC00003634 /* Resources */,
+				12BEBA2C13463820B88685F8 /* [CP] Embed Pods Frameworks */,
+				C35D71FA2982FA52A1164432 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -259,6 +286,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		12BEBA2C13463820B88685F8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HelloRecogition/Pods-HelloRecogition-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3F5DEFDCA960CE325C36E5A7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C35D71FA2982FA52A1164432 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HelloRecogition/Pods-HelloRecogition-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CDE6B8021FD4E6AC00003634 /* Sources */ = {
@@ -428,6 +503,7 @@
 		};
 		CDE6B8331FD4E6AD00003634 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55E0990D85C3EBB08F1B7509 /* Pods-HelloRecogition.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -442,6 +518,7 @@
 		};
 		CDE6B8341FD4E6AD00003634 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93F84EBE8DADDEAFD41CD86D /* Pods-HelloRecogition.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
