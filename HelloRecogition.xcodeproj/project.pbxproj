@@ -8,6 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		CC39DC9A378248C237E8325F /* libPods-HelloRecogition.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 23203F38C16EFF40F16A4E85 /* libPods-HelloRecogition.a */; };
+		CD2760771FD4F3F70053D131 /* Logger.m in Sources */ = {isa = PBXBuildFile; fileRef = CD2760761FD4F3F70053D131 /* Logger.m */; };
+		CD27607E1FD66EF70053D131 /* Request.m in Sources */ = {isa = PBXBuildFile; fileRef = CD27607D1FD66EF70053D131 /* Request.m */; };
+		CD2760811FD66F800053D131 /* NetConfigure.m in Sources */ = {isa = PBXBuildFile; fileRef = CD2760801FD66F800053D131 /* NetConfigure.m */; };
+		CD2760991FD675460053D131 /* Response.m in Sources */ = {isa = PBXBuildFile; fileRef = CD2760981FD675460053D131 /* Response.m */; };
+		CD27609C1FD67CF20053D131 /* ChainRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = CD27609B1FD67CF20053D131 /* ChainRequest.m */; };
+		CD27609F1FD7BABB0053D131 /* GroupRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = CD27609E1FD7BABB0053D131 /* GroupRequest.m */; };
+		CD7D69F51FDA349B005326F5 /* NetURLManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CD7D69F41FDA349B005326F5 /* NetURLManager.m */; };
+		CD7D69F81FDA3782005326F5 /* NetURLManager+Chain.m in Sources */ = {isa = PBXBuildFile; fileRef = CD7D69F71FDA3782005326F5 /* NetURLManager+Chain.m */; };
 		CDE6B80B1FD4E6AC00003634 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CDE6B80A1FD4E6AC00003634 /* AppDelegate.m */; };
 		CDE6B80E1FD4E6AC00003634 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDE6B80D1FD4E6AC00003634 /* ViewController.m */; };
 		CDE6B8111FD4E6AC00003634 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDE6B80F1FD4E6AC00003634 /* Main.storyboard */; };
@@ -40,6 +48,38 @@
 		55E0990D85C3EBB08F1B7509 /* Pods-HelloRecogition.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloRecogition.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HelloRecogition/Pods-HelloRecogition.debug.xcconfig"; sourceTree = "<group>"; };
 		93F84EBE8DADDEAFD41CD86D /* Pods-HelloRecogition.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloRecogition.release.xcconfig"; path = "Pods/Target Support Files/Pods-HelloRecogition/Pods-HelloRecogition.release.xcconfig"; sourceTree = "<group>"; };
 		CD27606A1FD4EF960053D131 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		CD2760741FD4F35C0053D131 /* NetWorking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetWorking.h; sourceTree = "<group>"; };
+		CD2760751FD4F3F70053D131 /* Logger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Logger.h; sourceTree = "<group>"; };
+		CD2760761FD4F3F70053D131 /* Logger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Logger.m; sourceTree = "<group>"; };
+		CD2760781FD4F4400053D131 /* Constant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constant.h; sourceTree = "<group>"; };
+		CD27607C1FD66EF70053D131 /* Request.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Request.h; sourceTree = "<group>"; };
+		CD27607D1FD66EF70053D131 /* Request.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Request.m; sourceTree = "<group>"; };
+		CD27607F1FD66F800053D131 /* NetConfigure.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetConfigure.h; sourceTree = "<group>"; };
+		CD2760801FD66F800053D131 /* NetConfigure.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetConfigure.m; sourceTree = "<group>"; };
+		CD27608F1FD673200053D131 /* SecurityUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecurityUtil.m; sourceTree = "<group>"; };
+		CD2760901FD673200053D131 /* SecurityUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecurityUtil.h; sourceTree = "<group>"; };
+		CD2760911FD6734A0053D131 /* NSString+MD5.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+MD5.h"; sourceTree = "<group>"; };
+		CD2760921FD6734B0053D131 /* NSString+MD5.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5.m"; sourceTree = "<group>"; };
+		CD2760931FD6734B0053D131 /* NSString+AES.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+AES.h"; sourceTree = "<group>"; };
+		CD2760941FD6734B0053D131 /* NSData+AES.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSData+AES.h"; sourceTree = "<group>"; };
+		CD2760951FD6734B0053D131 /* NSString+AES.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+AES.m"; sourceTree = "<group>"; };
+		CD2760961FD6734B0053D131 /* NSData+AES.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSData+AES.m"; sourceTree = "<group>"; };
+		CD2760971FD675460053D131 /* Response.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Response.h; sourceTree = "<group>"; };
+		CD2760981FD675460053D131 /* Response.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Response.m; sourceTree = "<group>"; };
+		CD27609A1FD67CF20053D131 /* ChainRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChainRequest.h; sourceTree = "<group>"; };
+		CD27609B1FD67CF20053D131 /* ChainRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChainRequest.m; sourceTree = "<group>"; };
+		CD27609D1FD7BABB0053D131 /* GroupRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GroupRequest.h; sourceTree = "<group>"; };
+		CD27609E1FD7BABB0053D131 /* GroupRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GroupRequest.m; sourceTree = "<group>"; };
+		CD2760A41FDA29210053D131 /* NSDictionary+JSON.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+JSON.m"; sourceTree = "<group>"; };
+		CD2760A51FDA29210053D131 /* NSDictionary+JSON.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+JSON.h"; sourceTree = "<group>"; };
+		CD2760A61FDA2D870053D131 /* RequestInterceptorProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RequestInterceptorProtocol.h; sourceTree = "<group>"; };
+		CD2760A71FDA2E340053D131 /* AFNetworkReachabilityManager+NNNetMonitor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AFNetworkReachabilityManager+NNNetMonitor.m"; sourceTree = "<group>"; };
+		CD2760A81FDA2E340053D131 /* AFNetworkReachabilityManager+NNNetMonitor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AFNetworkReachabilityManager+NNNetMonitor.h"; sourceTree = "<group>"; };
+		CD2760A91FDA2E9E0053D131 /* ResponseInterceptorProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ResponseInterceptorProtocol.h; sourceTree = "<group>"; };
+		CD7D69F31FDA349A005326F5 /* NetURLManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetURLManager.h; sourceTree = "<group>"; };
+		CD7D69F41FDA349B005326F5 /* NetURLManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetURLManager.m; sourceTree = "<group>"; };
+		CD7D69F61FDA3782005326F5 /* NetURLManager+Chain.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NetURLManager+Chain.h"; sourceTree = "<group>"; };
+		CD7D69F71FDA3782005326F5 /* NetURLManager+Chain.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NetURLManager+Chain.m"; sourceTree = "<group>"; };
 		CDE6B8061FD4E6AC00003634 /* HelloRecogition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloRecogition.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDE6B8091FD4E6AC00003634 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CDE6B80A1FD4E6AC00003634 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -125,6 +165,8 @@
 		CD27606E1FD4F1FB0053D131 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				CD2760A81FDA2E340053D131 /* AFNetworkReachabilityManager+NNNetMonitor.h */,
+				CD2760A71FDA2E340053D131 /* AFNetworkReachabilityManager+NNNetMonitor.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -132,6 +174,7 @@
 		CD27606F1FD4F1FB0053D131 /* Net */ = {
 			isa = PBXGroup;
 			children = (
+				CD2760731FD4F2FC0053D131 /* NetWorking */,
 			);
 			path = Net;
 			sourceTree = "<group>";
@@ -139,6 +182,7 @@
 		CD2760701FD4F1FB0053D131 /* Vender */ = {
 			isa = PBXGroup;
 			children = (
+				CD27608E1FD673140053D131 /* SecurityUtil */,
 			);
 			path = Vender;
 			sourceTree = "<group>";
@@ -155,6 +199,50 @@
 			children = (
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		CD2760731FD4F2FC0053D131 /* NetWorking */ = {
+			isa = PBXGroup;
+			children = (
+				CD2760741FD4F35C0053D131 /* NetWorking.h */,
+				CD2760781FD4F4400053D131 /* Constant.h */,
+				CD27607C1FD66EF70053D131 /* Request.h */,
+				CD27607D1FD66EF70053D131 /* Request.m */,
+				CD2760A61FDA2D870053D131 /* RequestInterceptorProtocol.h */,
+				CD2760A91FDA2E9E0053D131 /* ResponseInterceptorProtocol.h */,
+				CD27609A1FD67CF20053D131 /* ChainRequest.h */,
+				CD27609B1FD67CF20053D131 /* ChainRequest.m */,
+				CD27609D1FD7BABB0053D131 /* GroupRequest.h */,
+				CD27609E1FD7BABB0053D131 /* GroupRequest.m */,
+				CD2760971FD675460053D131 /* Response.h */,
+				CD2760981FD675460053D131 /* Response.m */,
+				CD7D69F31FDA349A005326F5 /* NetURLManager.h */,
+				CD7D69F41FDA349B005326F5 /* NetURLManager.m */,
+				CD7D69F61FDA3782005326F5 /* NetURLManager+Chain.h */,
+				CD7D69F71FDA3782005326F5 /* NetURLManager+Chain.m */,
+				CD27607F1FD66F800053D131 /* NetConfigure.h */,
+				CD2760801FD66F800053D131 /* NetConfigure.m */,
+				CD2760751FD4F3F70053D131 /* Logger.h */,
+				CD2760761FD4F3F70053D131 /* Logger.m */,
+			);
+			path = NetWorking;
+			sourceTree = "<group>";
+		};
+		CD27608E1FD673140053D131 /* SecurityUtil */ = {
+			isa = PBXGroup;
+			children = (
+				CD2760A51FDA29210053D131 /* NSDictionary+JSON.h */,
+				CD2760A41FDA29210053D131 /* NSDictionary+JSON.m */,
+				CD2760941FD6734B0053D131 /* NSData+AES.h */,
+				CD2760961FD6734B0053D131 /* NSData+AES.m */,
+				CD2760931FD6734B0053D131 /* NSString+AES.h */,
+				CD2760951FD6734B0053D131 /* NSString+AES.m */,
+				CD2760911FD6734A0053D131 /* NSString+MD5.h */,
+				CD2760921FD6734B0053D131 /* NSString+MD5.m */,
+				CD2760901FD673200053D131 /* SecurityUtil.h */,
+				CD27608F1FD673200053D131 /* SecurityUtil.m */,
+			);
+			path = SecurityUtil;
 			sourceTree = "<group>";
 		};
 		CDE6B7FD1FD4E6AC00003634 = {
@@ -406,9 +494,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD27609F1FD7BABB0053D131 /* GroupRequest.m in Sources */,
+				CD7D69F51FDA349B005326F5 /* NetURLManager.m in Sources */,
 				CDE6B80E1FD4E6AC00003634 /* ViewController.m in Sources */,
+				CD27607E1FD66EF70053D131 /* Request.m in Sources */,
+				CD2760991FD675460053D131 /* Response.m in Sources */,
 				CDE6B8191FD4E6AC00003634 /* main.m in Sources */,
 				CDE6B80B1FD4E6AC00003634 /* AppDelegate.m in Sources */,
+				CD27609C1FD67CF20053D131 /* ChainRequest.m in Sources */,
+				CD7D69F81FDA3782005326F5 /* NetURLManager+Chain.m in Sources */,
+				CD2760811FD66F800053D131 /* NetConfigure.m in Sources */,
+				CD2760771FD4F3F70053D131 /* Logger.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

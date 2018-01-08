@@ -8,7 +8,7 @@ target 'HelloRecogition' do
     #    pod 'SDWebImage/WebP'
     pod 'Masonry'
     pod 'JSONModel'
-
+    pod 'Qiniu', '7.1.6'
     pod 'FMDB'
     pod 'MJExtension'
     pod 'MJRefresh'
