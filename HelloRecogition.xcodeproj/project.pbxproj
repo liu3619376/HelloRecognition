@@ -16,6 +16,29 @@
 		CD27609F1FD7BABB0053D131 /* GroupRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = CD27609E1FD7BABB0053D131 /* GroupRequest.m */; };
 		CD7D69F51FDA349B005326F5 /* NetURLManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CD7D69F41FDA349B005326F5 /* NetURLManager.m */; };
 		CD7D69F81FDA3782005326F5 /* NetURLManager+Chain.m in Sources */ = {isa = PBXBuildFile; fileRef = CD7D69F71FDA3782005326F5 /* NetURLManager+Chain.m */; };
+		CD979AAD216DD0FD009E43C3 /* UIViewController+NNUMengEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = CD979AAB216DD0FD009E43C3 /* UIViewController+NNUMengEvent.m */; };
+		CD979AB0216DD175009E43C3 /* UIImage+FEBoxBlur.m in Sources */ = {isa = PBXBuildFile; fileRef = CD979AAF216DD175009E43C3 /* UIImage+FEBoxBlur.m */; };
+		CD979AB4216DD25F009E43C3 /* NSDate+MJ.m in Sources */ = {isa = PBXBuildFile; fileRef = CD979AB3216DD25F009E43C3 /* NSDate+MJ.m */; };
+		CD979ADA216DD2C0009E43C3 /* CodeScan.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CD979AB6216DD2C0009E43C3 /* CodeScan.bundle */; };
+		CD979ADB216DD2C0009E43C3 /* NNScanNetAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = CD979AB7216DD2C0009E43C3 /* NNScanNetAnimation.m */; };
+		CD979ADC216DD2C0009E43C3 /* NNQRCodeScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = CD979AB8216DD2C0009E43C3 /* NNQRCodeScanner.m */; };
+		CD979ADD216DD2C0009E43C3 /* NNScanView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD979ABA216DD2C0009E43C3 /* NNScanView.m */; };
+		CD979ADE216DD2C0009E43C3 /* NNScanLineAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = CD979ABC216DD2C0009E43C3 /* NNScanLineAnimation.m */; };
+		CD979ADF216DD2C0009E43C3 /* NNScanVideoZoomView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD979ABD216DD2C0009E43C3 /* NNScanVideoZoomView.m */; };
+		CD979AE0216DD2C0009E43C3 /* NNScanViewStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = CD979ABF216DD2C0009E43C3 /* NNScanViewStyle.m */; };
+		CD979AE1216DD2C0009E43C3 /* NNScanBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD979AC0216DD2C0009E43C3 /* NNScanBaseController.m */; };
+		CD979AE2216DD2C0009E43C3 /* NNScanStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = CD979AC4216DD2C0009E43C3 /* NNScanStyle.m */; };
+		CD979AE3216DD2C0009E43C3 /* NNScannerResult.m in Sources */ = {isa = PBXBuildFile; fileRef = CD979AC5216DD2C0009E43C3 /* NNScannerResult.m */; };
+		CD979AE4216DD2C0009E43C3 /* nn_beep.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CD979AC9216DD2C0009E43C3 /* nn_beep.m4a */; };
+		CD979AE5216DD2C0009E43C3 /* bitstream.c in Sources */ = {isa = PBXBuildFile; fileRef = CD979ACD216DD2C0009E43C3 /* bitstream.c */; };
+		CD979AE6216DD2C0009E43C3 /* qrencode.c in Sources */ = {isa = PBXBuildFile; fileRef = CD979ACE216DD2C0009E43C3 /* qrencode.c */; };
+		CD979AE7216DD2C0009E43C3 /* split.c in Sources */ = {isa = PBXBuildFile; fileRef = CD979AD0216DD2C0009E43C3 /* split.c */; };
+		CD979AE8216DD2C0009E43C3 /* qrinput.c in Sources */ = {isa = PBXBuildFile; fileRef = CD979AD2216DD2C0009E43C3 /* qrinput.c */; };
+		CD979AE9216DD2C0009E43C3 /* mask.c in Sources */ = {isa = PBXBuildFile; fileRef = CD979AD4216DD2C0009E43C3 /* mask.c */; };
+		CD979AEA216DD2C0009E43C3 /* qrspec.c in Sources */ = {isa = PBXBuildFile; fileRef = CD979AD5216DD2C0009E43C3 /* qrspec.c */; };
+		CD979AEB216DD2C0009E43C3 /* rscode.c in Sources */ = {isa = PBXBuildFile; fileRef = CD979AD8216DD2C0009E43C3 /* rscode.c */; };
+		CD979AEF216DD33D009E43C3 /* NNQRScannerController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD979AEE216DD33D009E43C3 /* NNQRScannerController.m */; };
+		CD979AF2216DD479009E43C3 /* UIResponder+Router.m in Sources */ = {isa = PBXBuildFile; fileRef = CD979AF1216DD479009E43C3 /* UIResponder+Router.m */; };
 		CDE6B80B1FD4E6AC00003634 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CDE6B80A1FD4E6AC00003634 /* AppDelegate.m */; };
 		CDE6B80E1FD4E6AC00003634 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDE6B80D1FD4E6AC00003634 /* ViewController.m */; };
 		CDE6B8111FD4E6AC00003634 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDE6B80F1FD4E6AC00003634 /* Main.storyboard */; };
@@ -80,6 +103,50 @@
 		CD7D69F41FDA349B005326F5 /* NetURLManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetURLManager.m; sourceTree = "<group>"; };
 		CD7D69F61FDA3782005326F5 /* NetURLManager+Chain.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NetURLManager+Chain.h"; sourceTree = "<group>"; };
 		CD7D69F71FDA3782005326F5 /* NetURLManager+Chain.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NetURLManager+Chain.m"; sourceTree = "<group>"; };
+		CD979AAB216DD0FD009E43C3 /* UIViewController+NNUMengEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+NNUMengEvent.m"; sourceTree = "<group>"; };
+		CD979AAC216DD0FD009E43C3 /* UIViewController+NNUMengEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+NNUMengEvent.h"; sourceTree = "<group>"; };
+		CD979AAE216DD175009E43C3 /* UIImage+FEBoxBlur.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+FEBoxBlur.h"; sourceTree = "<group>"; };
+		CD979AAF216DD175009E43C3 /* UIImage+FEBoxBlur.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+FEBoxBlur.m"; sourceTree = "<group>"; };
+		CD979AB2216DD25F009E43C3 /* NSDate+MJ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+MJ.h"; sourceTree = "<group>"; };
+		CD979AB3216DD25F009E43C3 /* NSDate+MJ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+MJ.m"; sourceTree = "<group>"; };
+		CD979AB6216DD2C0009E43C3 /* CodeScan.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = CodeScan.bundle; sourceTree = "<group>"; };
+		CD979AB7216DD2C0009E43C3 /* NNScanNetAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNScanNetAnimation.m; sourceTree = "<group>"; };
+		CD979AB8216DD2C0009E43C3 /* NNQRCodeScanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNQRCodeScanner.m; sourceTree = "<group>"; };
+		CD979AB9216DD2C0009E43C3 /* NNScanBaseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNScanBaseController.h; sourceTree = "<group>"; };
+		CD979ABA216DD2C0009E43C3 /* NNScanView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNScanView.m; sourceTree = "<group>"; };
+		CD979ABB216DD2C0009E43C3 /* NNScanStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNScanStyle.h; sourceTree = "<group>"; };
+		CD979ABC216DD2C0009E43C3 /* NNScanLineAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNScanLineAnimation.m; sourceTree = "<group>"; };
+		CD979ABD216DD2C0009E43C3 /* NNScanVideoZoomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNScanVideoZoomView.m; sourceTree = "<group>"; };
+		CD979ABE216DD2C0009E43C3 /* NNScannerResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNScannerResult.h; sourceTree = "<group>"; };
+		CD979ABF216DD2C0009E43C3 /* NNScanViewStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNScanViewStyle.m; sourceTree = "<group>"; };
+		CD979AC0216DD2C0009E43C3 /* NNScanBaseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNScanBaseController.m; sourceTree = "<group>"; };
+		CD979AC1216DD2C0009E43C3 /* NNQRCodeScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNQRCodeScanner.h; sourceTree = "<group>"; };
+		CD979AC2216DD2C0009E43C3 /* NNScanNetAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNScanNetAnimation.h; sourceTree = "<group>"; };
+		CD979AC3216DD2C0009E43C3 /* NNScanView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNScanView.h; sourceTree = "<group>"; };
+		CD979AC4216DD2C0009E43C3 /* NNScanStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNScanStyle.m; sourceTree = "<group>"; };
+		CD979AC5216DD2C0009E43C3 /* NNScannerResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNScannerResult.m; sourceTree = "<group>"; };
+		CD979AC6216DD2C0009E43C3 /* NNScanVideoZoomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNScanVideoZoomView.h; sourceTree = "<group>"; };
+		CD979AC7216DD2C0009E43C3 /* NNScanLineAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNScanLineAnimation.h; sourceTree = "<group>"; };
+		CD979AC9216DD2C0009E43C3 /* nn_beep.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = nn_beep.m4a; sourceTree = "<group>"; };
+		CD979ACB216DD2C0009E43C3 /* mask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mask.h; sourceTree = "<group>"; };
+		CD979ACC216DD2C0009E43C3 /* qrinput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = qrinput.h; sourceTree = "<group>"; };
+		CD979ACD216DD2C0009E43C3 /* bitstream.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bitstream.c; sourceTree = "<group>"; };
+		CD979ACE216DD2C0009E43C3 /* qrencode.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = qrencode.c; sourceTree = "<group>"; };
+		CD979ACF216DD2C0009E43C3 /* qrspec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = qrspec.h; sourceTree = "<group>"; };
+		CD979AD0216DD2C0009E43C3 /* split.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = split.c; sourceTree = "<group>"; };
+		CD979AD1216DD2C0009E43C3 /* rscode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rscode.h; sourceTree = "<group>"; };
+		CD979AD2216DD2C0009E43C3 /* qrinput.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = qrinput.c; sourceTree = "<group>"; };
+		CD979AD3216DD2C0009E43C3 /* bitstream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bitstream.h; sourceTree = "<group>"; };
+		CD979AD4216DD2C0009E43C3 /* mask.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mask.c; sourceTree = "<group>"; };
+		CD979AD5216DD2C0009E43C3 /* qrspec.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = qrspec.c; sourceTree = "<group>"; };
+		CD979AD6216DD2C0009E43C3 /* qrencode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = qrencode.h; sourceTree = "<group>"; };
+		CD979AD7216DD2C0009E43C3 /* split.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = split.h; sourceTree = "<group>"; };
+		CD979AD8216DD2C0009E43C3 /* rscode.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = rscode.c; sourceTree = "<group>"; };
+		CD979AD9216DD2C0009E43C3 /* NNScanViewStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNScanViewStyle.h; sourceTree = "<group>"; };
+		CD979AED216DD33D009E43C3 /* NNQRScannerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNQRScannerController.h; sourceTree = "<group>"; };
+		CD979AEE216DD33D009E43C3 /* NNQRScannerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNQRScannerController.m; sourceTree = "<group>"; };
+		CD979AF0216DD479009E43C3 /* UIResponder+Router.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIResponder+Router.h"; sourceTree = "<group>"; };
+		CD979AF1216DD479009E43C3 /* UIResponder+Router.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIResponder+Router.m"; sourceTree = "<group>"; };
 		CDE6B8061FD4E6AC00003634 /* HelloRecogition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloRecogition.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDE6B8091FD4E6AC00003634 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CDE6B80A1FD4E6AC00003634 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -141,32 +208,14 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		CD27606B1FD4F1FA0053D131 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		CD27606C1FD4F1FA0053D131 /* Mnanager */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Mnanager;
-			sourceTree = "<group>";
-		};
-		CD27606D1FD4F1FB0053D131 /* Resource */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Resource;
-			sourceTree = "<group>";
-		};
 		CD27606E1FD4F1FB0053D131 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				CD979AAA216DD0EE009E43C3 /* UICategory */,
 				CD2760A81FDA2E340053D131 /* AFNetworkReachabilityManager+NNNetMonitor.h */,
 				CD2760A71FDA2E340053D131 /* AFNetworkReachabilityManager+NNNetMonitor.m */,
+				CD979AF0216DD479009E43C3 /* UIResponder+Router.h */,
+				CD979AF1216DD479009E43C3 /* UIResponder+Router.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -182,23 +231,11 @@
 		CD2760701FD4F1FB0053D131 /* Vender */ = {
 			isa = PBXGroup;
 			children = (
+				CD979AB5216DD2C0009E43C3 /* QRCodeScanner */,
+				CD979AB1216DD25F009E43C3 /* NSDate+MJ */,
 				CD27608E1FD673140053D131 /* SecurityUtil */,
 			);
 			path = Vender;
-			sourceTree = "<group>";
-		};
-		CD2760711FD4F1FB0053D131 /* Base */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Base;
-			sourceTree = "<group>";
-		};
-		CD2760721FD4F1FC0053D131 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
 			sourceTree = "<group>";
 		};
 		CD2760731FD4F2FC0053D131 /* NetWorking */ = {
@@ -245,6 +282,129 @@
 			path = SecurityUtil;
 			sourceTree = "<group>";
 		};
+		CD979AA5216DCF9E009E43C3 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		CD979AA6216DCFBA009E43C3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CD979AEC216DD33D009E43C3 /* QRCode */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CD979AA7216DCFF0009E43C3 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		CD979AA8216DD010009E43C3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CD979AA9216DD038009E43C3 /* Resoruce */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resoruce;
+			sourceTree = "<group>";
+		};
+		CD979AAA216DD0EE009E43C3 /* UICategory */ = {
+			isa = PBXGroup;
+			children = (
+				CD979AAE216DD175009E43C3 /* UIImage+FEBoxBlur.h */,
+				CD979AAF216DD175009E43C3 /* UIImage+FEBoxBlur.m */,
+				CD979AAC216DD0FD009E43C3 /* UIViewController+NNUMengEvent.h */,
+				CD979AAB216DD0FD009E43C3 /* UIViewController+NNUMengEvent.m */,
+			);
+			path = UICategory;
+			sourceTree = "<group>";
+		};
+		CD979AB1216DD25F009E43C3 /* NSDate+MJ */ = {
+			isa = PBXGroup;
+			children = (
+				CD979AB2216DD25F009E43C3 /* NSDate+MJ.h */,
+				CD979AB3216DD25F009E43C3 /* NSDate+MJ.m */,
+			);
+			path = "NSDate+MJ";
+			sourceTree = "<group>";
+		};
+		CD979AB5216DD2C0009E43C3 /* QRCodeScanner */ = {
+			isa = PBXGroup;
+			children = (
+				CD979AB6216DD2C0009E43C3 /* CodeScan.bundle */,
+				CD979AB7216DD2C0009E43C3 /* NNScanNetAnimation.m */,
+				CD979AB8216DD2C0009E43C3 /* NNQRCodeScanner.m */,
+				CD979AB9216DD2C0009E43C3 /* NNScanBaseController.h */,
+				CD979ABA216DD2C0009E43C3 /* NNScanView.m */,
+				CD979ABB216DD2C0009E43C3 /* NNScanStyle.h */,
+				CD979ABC216DD2C0009E43C3 /* NNScanLineAnimation.m */,
+				CD979ABD216DD2C0009E43C3 /* NNScanVideoZoomView.m */,
+				CD979ABE216DD2C0009E43C3 /* NNScannerResult.h */,
+				CD979ABF216DD2C0009E43C3 /* NNScanViewStyle.m */,
+				CD979AC0216DD2C0009E43C3 /* NNScanBaseController.m */,
+				CD979AC1216DD2C0009E43C3 /* NNQRCodeScanner.h */,
+				CD979AC2216DD2C0009E43C3 /* NNScanNetAnimation.h */,
+				CD979AC3216DD2C0009E43C3 /* NNScanView.h */,
+				CD979AC4216DD2C0009E43C3 /* NNScanStyle.m */,
+				CD979AC5216DD2C0009E43C3 /* NNScannerResult.m */,
+				CD979AC6216DD2C0009E43C3 /* NNScanVideoZoomView.h */,
+				CD979AC7216DD2C0009E43C3 /* NNScanLineAnimation.h */,
+				CD979AC8216DD2C0009E43C3 /* resource */,
+				CD979AD9216DD2C0009E43C3 /* NNScanViewStyle.h */,
+			);
+			name = QRCodeScanner;
+			path = ../../../broodon/NNLetter/Vender/QRCodeScanner;
+			sourceTree = "<group>";
+		};
+		CD979AC8216DD2C0009E43C3 /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				CD979AC9216DD2C0009E43C3 /* nn_beep.m4a */,
+				CD979ACA216DD2C0009E43C3 /* libqrencode */,
+			);
+			path = resource;
+			sourceTree = "<group>";
+		};
+		CD979ACA216DD2C0009E43C3 /* libqrencode */ = {
+			isa = PBXGroup;
+			children = (
+				CD979ACB216DD2C0009E43C3 /* mask.h */,
+				CD979ACC216DD2C0009E43C3 /* qrinput.h */,
+				CD979ACD216DD2C0009E43C3 /* bitstream.c */,
+				CD979ACE216DD2C0009E43C3 /* qrencode.c */,
+				CD979ACF216DD2C0009E43C3 /* qrspec.h */,
+				CD979AD0216DD2C0009E43C3 /* split.c */,
+				CD979AD1216DD2C0009E43C3 /* rscode.h */,
+				CD979AD2216DD2C0009E43C3 /* qrinput.c */,
+				CD979AD3216DD2C0009E43C3 /* bitstream.h */,
+				CD979AD4216DD2C0009E43C3 /* mask.c */,
+				CD979AD5216DD2C0009E43C3 /* qrspec.c */,
+				CD979AD6216DD2C0009E43C3 /* qrencode.h */,
+				CD979AD7216DD2C0009E43C3 /* split.h */,
+				CD979AD8216DD2C0009E43C3 /* rscode.c */,
+			);
+			path = libqrencode;
+			sourceTree = "<group>";
+		};
+		CD979AEC216DD33D009E43C3 /* QRCode */ = {
+			isa = PBXGroup;
+			children = (
+				CD979AED216DD33D009E43C3 /* NNQRScannerController.h */,
+				CD979AEE216DD33D009E43C3 /* NNQRScannerController.m */,
+			);
+			path = QRCode;
+			sourceTree = "<group>";
+		};
 		CDE6B7FD1FD4E6AC00003634 = {
 			isa = PBXGroup;
 			children = (
@@ -270,13 +430,13 @@
 		CDE6B8081FD4E6AC00003634 /* HelloRecogition */ = {
 			isa = PBXGroup;
 			children = (
-				CD2760711FD4F1FB0053D131 /* Base */,
+				CD979AA9216DD038009E43C3 /* Resoruce */,
+				CD979AA8216DD010009E43C3 /* Model */,
+				CD979AA7216DCFF0009E43C3 /* Manager */,
+				CD979AA6216DCFBA009E43C3 /* Controller */,
+				CD979AA5216DCF9E009E43C3 /* Base */,
 				CD27606E1FD4F1FB0053D131 /* Category */,
-				CD27606B1FD4F1FA0053D131 /* Controller */,
-				CD27606C1FD4F1FA0053D131 /* Mnanager */,
-				CD2760721FD4F1FC0053D131 /* Model */,
 				CD27606F1FD4F1FB0053D131 /* Net */,
-				CD27606D1FD4F1FB0053D131 /* Resource */,
 				CD2760701FD4F1FB0053D131 /* Vender */,
 				CD27606A1FD4EF960053D131 /* PrefixHeader.pch */,
 				CDE6B8091FD4E6AC00003634 /* AppDelegate.h */,
@@ -420,8 +580,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				CDE6B8161FD4E6AC00003634 /* LaunchScreen.storyboard in Resources */,
+				CD979AE4216DD2C0009E43C3 /* nn_beep.m4a in Resources */,
 				CDE6B8131FD4E6AC00003634 /* Assets.xcassets in Resources */,
 				CDE6B8111FD4E6AC00003634 /* Main.storyboard in Resources */,
+				CD979ADA216DD2C0009E43C3 /* CodeScan.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -494,12 +656,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD979AEA216DD2C0009E43C3 /* qrspec.c in Sources */,
+				CD979ADF216DD2C0009E43C3 /* NNScanVideoZoomView.m in Sources */,
+				CD979AE3216DD2C0009E43C3 /* NNScannerResult.m in Sources */,
+				CD979ADC216DD2C0009E43C3 /* NNQRCodeScanner.m in Sources */,
 				CD27609F1FD7BABB0053D131 /* GroupRequest.m in Sources */,
+				CD979AE7216DD2C0009E43C3 /* split.c in Sources */,
 				CD7D69F51FDA349B005326F5 /* NetURLManager.m in Sources */,
+				CD979ADE216DD2C0009E43C3 /* NNScanLineAnimation.m in Sources */,
+				CD979AE0216DD2C0009E43C3 /* NNScanViewStyle.m in Sources */,
+				CD979AE6216DD2C0009E43C3 /* qrencode.c in Sources */,
+				CD979AE5216DD2C0009E43C3 /* bitstream.c in Sources */,
+				CD979AF2216DD479009E43C3 /* UIResponder+Router.m in Sources */,
+				CD979AE2216DD2C0009E43C3 /* NNScanStyle.m in Sources */,
+				CD979AE9216DD2C0009E43C3 /* mask.c in Sources */,
+				CD979AEB216DD2C0009E43C3 /* rscode.c in Sources */,
 				CDE6B80E1FD4E6AC00003634 /* ViewController.m in Sources */,
 				CD27607E1FD66EF70053D131 /* Request.m in Sources */,
+				CD979AE1216DD2C0009E43C3 /* NNScanBaseController.m in Sources */,
+				CD979AE8216DD2C0009E43C3 /* qrinput.c in Sources */,
+				CD979AEF216DD33D009E43C3 /* NNQRScannerController.m in Sources */,
+				CD979AAD216DD0FD009E43C3 /* UIViewController+NNUMengEvent.m in Sources */,
 				CD2760991FD675460053D131 /* Response.m in Sources */,
+				CD979ADD216DD2C0009E43C3 /* NNScanView.m in Sources */,
 				CDE6B8191FD4E6AC00003634 /* main.m in Sources */,
+				CD979ADB216DD2C0009E43C3 /* NNScanNetAnimation.m in Sources */,
+				CD979AB4216DD25F009E43C3 /* NSDate+MJ.m in Sources */,
+				CD979AB0216DD175009E43C3 /* UIImage+FEBoxBlur.m in Sources */,
 				CDE6B80B1FD4E6AC00003634 /* AppDelegate.m in Sources */,
 				CD27609C1FD67CF20053D131 /* ChainRequest.m in Sources */,
 				CD7D69F81FDA3782005326F5 /* NetURLManager+Chain.m in Sources */,
