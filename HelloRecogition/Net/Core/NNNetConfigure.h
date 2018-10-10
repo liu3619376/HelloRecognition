@@ -1,9 +1,9 @@
 //
-//  NetConfigure.h
-//  HelloRecogition
+//  NNNetConfigure.h
+//  NNNetWorking
 //
-//  Created by liuyang on 2017/12/5.
-//  Copyright © 2017年 liuyang. All rights reserved.
+//  Created by shizhi on 2017/6/7.
+//  Copyright © 2017年 Hunan nian information technology co., LTD. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
@@ -11,7 +11,7 @@
 NS_ASSUME_NONNULL_BEGIN
 
 /// 参数配置
-@interface NetConfigure : NSObject
+@interface NNNetConfigure : NSObject
 
 /**
  公共参数
@@ -28,22 +28,21 @@ NS_ASSUME_NONNULL_BEGIN
  */
 @property (nonatomic, copy, readwrite, nonnull) NSString *generalServer;
 
-
-/**
- 文件上传地址 默认：
- */
-@property (nonatomic, copy, readwrite, nonnull) NSString *fileUploadURL;
-
-/**
- 图片上传地址 默认：
- */
-@property (nonatomic, copy, readwrite, nonnull) NSString *imageUploadURL;
-
-
-/**
- 文件查看地址 默认：
- */
-@property (nonatomic, copy, readwrite, nonnull) NSString *fileViewURL;
+///**
+// 文件上传地址 默认：
+// */
+//@property (nonatomic, copy, readwrite, nonnull) NSString *fileUploadURL;
+//
+///**
+// 图片上传地址 默认：
+// */
+//@property (nonatomic, copy, readwrite, nonnull) NSString *imageUploadURL;
+//
+//
+///**
+// 文件查看地址 默认：
+// */
+//@property (nonatomic, copy, readwrite, nonnull) NSString *fileViewURL;
 
 /**
  是否为调试模式（默认 false, 当为 true 时，会输出 网络请求日志）

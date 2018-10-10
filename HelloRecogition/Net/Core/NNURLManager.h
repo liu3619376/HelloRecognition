@@ -1,19 +1,20 @@
 //
-//  NetURLManager.h
-//  HelloRecogition
+//  NNURLManager.h
+//  NNNetWorking
 //
-//  Created by liuyang on 2017/12/8.
-//  Copyright © 2017年 liuyang. All rights reserved.
+//  Created by shizhi on 2017/6/6.
+//  Copyright © 2017年 Hunan nian information technology co., LTD. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
-#import "Constant.h"
+#import "NNConstant.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
-@class Request, Response;
+@class NNRequest, NNResponse;
 
-@interface NetURLManager : NSObject
+/// 网络请求 实现类
+@interface NNURLManager : NSObject
 
 + (nonnull instancetype)manager;
 
@@ -24,17 +25,17 @@ NS_ASSUME_NONNULL_BEGIN
  @param result 响应结果
  @return 该请求对应的唯一 task id
  */
-- (NSString *)sendRequest:(nonnull Request *)request complete:(nonnull ResponseBlock) result;
+- (NSString *)sendRequest:(nonnull NNRequest *)request complete:(nonnull NNResponseBlock) result;
 
 
 /**
  发送网络琴秋，紧凑型
- 
+
  @param requestBlock 请求配置 Block
  @param result 请求结果 Block
  @return 该请求对应的唯一 task id
  */
-- (NSString *)sendRequestWithConfigBlock:(nonnull RequestConfigBlock )requestBlock complete:(nonnull ResponseBlock) result;
+- (NSString *)sendRequestWithConfigBlock:(nonnull NNRequestConfigBlock )requestBlock complete:(nonnull NNResponseBlock) result;
 
 /**
  根据请求 ID 取消该任务
@@ -54,7 +55,8 @@ NS_ASSUME_NONNULL_BEGIN
 @end
 
 
-@interface NetURLManager (Validate)
+@interface NNURLManager (Validate)
+
 /**
  请求前的拦截器
  
@@ -72,6 +74,9 @@ NS_ASSUME_NONNULL_BEGIN
  */
 + (void)registerResponseInterceptor:(nonnull Class)cls;
 + (void)unregisterResponseInterceptor:(nonnull Class)cls;
+
 @end
+
+
 
 NS_ASSUME_NONNULL_END

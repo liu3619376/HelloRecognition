@@ -1,21 +1,20 @@
 //
-//  NetConfigure.m
-//  HelloRecogition
+//  NNNetConfigure.m
+//  NNNetWorking
 //
-//  Created by liuyang on 2017/12/5.
-//  Copyright © 2017年 liuyang. All rights reserved.
+//  Created by shizhi on 2017/6/7.
+//  Copyright © 2017年 Hunan nian information technology co., LTD. All rights reserved.
 //
 
-#import "NetConfigure.h"
+#import "NNNetConfigure.h"
 
-@implementation NetConfigure
+@implementation NNNetConfigure
 
-//单例模式
 + (instancetype)share {
     static dispatch_once_t onceToken;
-    static NetConfigure *manager = nil;
+    static NNNetConfigure *manager = nil;
     dispatch_once(&onceToken, ^{
-        manager = [[[self class] alloc] init];
+      manager = [[[self class] alloc] init];
     });
     return manager;
 }
@@ -29,18 +28,17 @@
 }
 
 + (void)addGeneralParameter:(NSString *)sKey value:(id)sValue {
-    NetConfigure *manager = [NetConfigure share];
+    NNNetConfigure *manager = [NNNetConfigure share];
     NSMutableDictionary *mDict = @{}.mutableCopy;
     mDict[sKey] = sValue;
     [mDict addEntriesFromDictionary:manager.generalParameters];
     manager.generalParameters = mDict.copy;
 }
 + (void)removeGeneralParameter:(NSString *)sKey {
-    NetConfigure *manager = [NetConfigure share];
+    NNNetConfigure *manager = [NNNetConfigure share];
     NSMutableDictionary *mDict = manager.generalParameters.mutableCopy;
     [mDict removeObjectForKey:sKey];
     manager.generalParameters = mDict.copy;
 }
-
 
 @end

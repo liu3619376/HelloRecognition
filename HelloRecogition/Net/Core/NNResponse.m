@@ -1,17 +1,17 @@
 //
-//  Response.m
-//  HelloRecogition
+//  NNResponse.m
+//  NNNetWorking
 //
-//  Created by liuyang on 2017/12/5.
-//  Copyright © 2017年 liuyang. All rights reserved.
+//  Created by shizhi on 2017/6/6.
+//  Copyright © 2017年 Hunan nian information technology co., LTD. All rights reserved.
 //
 
-#import "Response.h"
+#import "NNResponse.h"
 
-@interface Response()
+@interface NNResponse ()
 
 @property (nonatomic, copy, readwrite) NSData *rawData;
-@property (nonatomic, assign, readwrite) ResponseStatus status;
+@property (nonatomic, assign, readwrite) NNResponseStatus status;
 @property (nonatomic, copy, readwrite) id content;
 @property (nonatomic, assign, readwrite) NSInteger statueCode;
 @property (nonatomic, assign, readwrite) NSInteger requestId;
@@ -19,13 +19,13 @@
 
 @end
 
-@implementation Response
+@implementation NNResponse
 
 #pragma mark - life cycle
 - (nonnull instancetype)initWithRequestId:(nonnull NSNumber *)requestId
                                   request:(nonnull NSURLRequest *)request
                              responseData:(nullable NSData *)responseData
-                                   status:(ResponseStatus)status
+                                   status:(NNResponseStatus)status
 {
     self = [super init];
     if (self)
@@ -61,7 +61,7 @@
 {
     if (error)
     {
-        self.status = ResponseStatusError;
+        self.status = NNResponseStatusError;
         self.content = @"网络异常，请稍后再试";
         self.statueCode = error.code;
     }
@@ -70,11 +70,11 @@
         if (self.rawData.length > 0)
         {
             NSDictionary *dic = [self jsonWithData:self.rawData];
-            
+
             BOOL result = MAX([dic[@"success"] boolValue], [dic[@"result"] boolValue]);
             if (result)
             {
-                self.status = ResponseStatusSuccess;
+                self.status = NNResponseStatusSuccess;
                 self.content = [self processCotnentValue:dic];
                 NSString *code = dic[@"code"];
                 if (code && [code isKindOfClass:[NSString class]]) {
@@ -83,7 +83,7 @@
             }
             else
             {
-                self.status = ResponseStatusError;
+                self.status = NNResponseStatusError;
                 self.content = dic[@"msg"];
                 NSString *code = dic[@"code"];
                 if (code && [code isKindOfClass:[NSString class]]) {
@@ -97,7 +97,7 @@
         else
         {
             self.statueCode = NSURLErrorUnknown;
-            self.status = ResponseStatusError;
+            self.status = NNResponseStatusError;
             self.content = @"未知错误";
         }
     }
@@ -111,16 +111,15 @@
         NSMutableDictionary *contentDict = ((NSDictionary *)content).mutableCopy;
         [contentDict removeObjectForKey:@"result"];
         //        [contentDict removeObjectForKey:@"msg"];
-        
+
         if ([contentDict[@"data"] isKindOfClass:[NSNull class]])
         {
             [contentDict removeObjectForKey:@"data"];
         }
-        
+
         return contentDict.copy;
     }
     return content;
 }
-
 
 @end

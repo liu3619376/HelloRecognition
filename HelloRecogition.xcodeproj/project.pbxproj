@@ -8,14 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		CC39DC9A378248C237E8325F /* libPods-HelloRecogition.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 23203F38C16EFF40F16A4E85 /* libPods-HelloRecogition.a */; };
-		CD2760771FD4F3F70053D131 /* Logger.m in Sources */ = {isa = PBXBuildFile; fileRef = CD2760761FD4F3F70053D131 /* Logger.m */; };
-		CD27607E1FD66EF70053D131 /* Request.m in Sources */ = {isa = PBXBuildFile; fileRef = CD27607D1FD66EF70053D131 /* Request.m */; };
-		CD2760811FD66F800053D131 /* NetConfigure.m in Sources */ = {isa = PBXBuildFile; fileRef = CD2760801FD66F800053D131 /* NetConfigure.m */; };
-		CD2760991FD675460053D131 /* Response.m in Sources */ = {isa = PBXBuildFile; fileRef = CD2760981FD675460053D131 /* Response.m */; };
-		CD27609C1FD67CF20053D131 /* ChainRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = CD27609B1FD67CF20053D131 /* ChainRequest.m */; };
-		CD27609F1FD7BABB0053D131 /* GroupRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = CD27609E1FD7BABB0053D131 /* GroupRequest.m */; };
-		CD7D69F51FDA349B005326F5 /* NetURLManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CD7D69F41FDA349B005326F5 /* NetURLManager.m */; };
-		CD7D69F81FDA3782005326F5 /* NetURLManager+Chain.m in Sources */ = {isa = PBXBuildFile; fileRef = CD7D69F71FDA3782005326F5 /* NetURLManager+Chain.m */; };
 		CD979AAD216DD0FD009E43C3 /* UIViewController+NNUMengEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = CD979AAB216DD0FD009E43C3 /* UIViewController+NNUMengEvent.m */; };
 		CD979AB0216DD175009E43C3 /* UIImage+FEBoxBlur.m in Sources */ = {isa = PBXBuildFile; fileRef = CD979AAF216DD175009E43C3 /* UIImage+FEBoxBlur.m */; };
 		CD979AB4216DD25F009E43C3 /* NSDate+MJ.m in Sources */ = {isa = PBXBuildFile; fileRef = CD979AB3216DD25F009E43C3 /* NSDate+MJ.m */; };
@@ -39,6 +31,21 @@
 		CD979AEB216DD2C0009E43C3 /* rscode.c in Sources */ = {isa = PBXBuildFile; fileRef = CD979AD8216DD2C0009E43C3 /* rscode.c */; };
 		CD979AEF216DD33D009E43C3 /* NNQRScannerController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD979AEE216DD33D009E43C3 /* NNQRScannerController.m */; };
 		CD979AF2216DD479009E43C3 /* UIResponder+Router.m in Sources */ = {isa = PBXBuildFile; fileRef = CD979AF1216DD479009E43C3 /* UIResponder+Router.m */; };
+		CD979B19216DD761009E43C3 /* NSString+AES.m in Sources */ = {isa = PBXBuildFile; fileRef = CD979AF9216DD761009E43C3 /* NSString+AES.m */; };
+		CD979B1A216DD761009E43C3 /* NNRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = CD979AFB216DD761009E43C3 /* NNRequest.m */; };
+		CD979B1B216DD761009E43C3 /* NNGroupRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = CD979AFD216DD761009E43C3 /* NNGroupRequest.m */; };
+		CD979B1C216DD761009E43C3 /* NNLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = CD979AFF216DD761009E43C3 /* NNLogger.m */; };
+		CD979B1D216DD761009E43C3 /* NNImageUploadRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = CD979B00216DD761009E43C3 /* NNImageUploadRequest.m */; };
+		CD979B1E216DD761009E43C3 /* NNUploadRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = CD979B02216DD761009E43C3 /* NNUploadRequest.m */; };
+		CD979B1F216DD761009E43C3 /* NNNetConfigure.m in Sources */ = {isa = PBXBuildFile; fileRef = CD979B05216DD761009E43C3 /* NNNetConfigure.m */; };
+		CD979B20216DD761009E43C3 /* NNURLManager+Group.m in Sources */ = {isa = PBXBuildFile; fileRef = CD979B06216DD761009E43C3 /* NNURLManager+Group.m */; };
+		CD979B21216DD761009E43C3 /* NNURLManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CD979B07216DD761009E43C3 /* NNURLManager.m */; };
+		CD979B22216DD761009E43C3 /* NSDictionary+JSON.m in Sources */ = {isa = PBXBuildFile; fileRef = CD979B09216DD761009E43C3 /* NSDictionary+JSON.m */; };
+		CD979B23216DD761009E43C3 /* NSData+AES.m in Sources */ = {isa = PBXBuildFile; fileRef = CD979B0A216DD761009E43C3 /* NSData+AES.m */; };
+		CD979B24216DD761009E43C3 /* NNChainRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = CD979B0D216DD761009E43C3 /* NNChainRequest.m */; };
+		CD979B25216DD761009E43C3 /* NSString+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = CD979B12216DD761009E43C3 /* NSString+MD5.m */; };
+		CD979B26216DD761009E43C3 /* NNResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = CD979B15216DD761009E43C3 /* NNResponse.m */; };
+		CD979B27216DD761009E43C3 /* NNURLManager+Chain.m in Sources */ = {isa = PBXBuildFile; fileRef = CD979B17216DD761009E43C3 /* NNURLManager+Chain.m */; };
 		CDE6B80B1FD4E6AC00003634 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CDE6B80A1FD4E6AC00003634 /* AppDelegate.m */; };
 		CDE6B80E1FD4E6AC00003634 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDE6B80D1FD4E6AC00003634 /* ViewController.m */; };
 		CDE6B8111FD4E6AC00003634 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDE6B80F1FD4E6AC00003634 /* Main.storyboard */; };
@@ -71,14 +78,6 @@
 		55E0990D85C3EBB08F1B7509 /* Pods-HelloRecogition.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloRecogition.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HelloRecogition/Pods-HelloRecogition.debug.xcconfig"; sourceTree = "<group>"; };
 		93F84EBE8DADDEAFD41CD86D /* Pods-HelloRecogition.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloRecogition.release.xcconfig"; path = "Pods/Target Support Files/Pods-HelloRecogition/Pods-HelloRecogition.release.xcconfig"; sourceTree = "<group>"; };
 		CD27606A1FD4EF960053D131 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
-		CD2760741FD4F35C0053D131 /* NetWorking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetWorking.h; sourceTree = "<group>"; };
-		CD2760751FD4F3F70053D131 /* Logger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Logger.h; sourceTree = "<group>"; };
-		CD2760761FD4F3F70053D131 /* Logger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Logger.m; sourceTree = "<group>"; };
-		CD2760781FD4F4400053D131 /* Constant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constant.h; sourceTree = "<group>"; };
-		CD27607C1FD66EF70053D131 /* Request.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Request.h; sourceTree = "<group>"; };
-		CD27607D1FD66EF70053D131 /* Request.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Request.m; sourceTree = "<group>"; };
-		CD27607F1FD66F800053D131 /* NetConfigure.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetConfigure.h; sourceTree = "<group>"; };
-		CD2760801FD66F800053D131 /* NetConfigure.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetConfigure.m; sourceTree = "<group>"; };
 		CD27608F1FD673200053D131 /* SecurityUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecurityUtil.m; sourceTree = "<group>"; };
 		CD2760901FD673200053D131 /* SecurityUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecurityUtil.h; sourceTree = "<group>"; };
 		CD2760911FD6734A0053D131 /* NSString+MD5.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+MD5.h"; sourceTree = "<group>"; };
@@ -87,22 +86,10 @@
 		CD2760941FD6734B0053D131 /* NSData+AES.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSData+AES.h"; sourceTree = "<group>"; };
 		CD2760951FD6734B0053D131 /* NSString+AES.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+AES.m"; sourceTree = "<group>"; };
 		CD2760961FD6734B0053D131 /* NSData+AES.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSData+AES.m"; sourceTree = "<group>"; };
-		CD2760971FD675460053D131 /* Response.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Response.h; sourceTree = "<group>"; };
-		CD2760981FD675460053D131 /* Response.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Response.m; sourceTree = "<group>"; };
-		CD27609A1FD67CF20053D131 /* ChainRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChainRequest.h; sourceTree = "<group>"; };
-		CD27609B1FD67CF20053D131 /* ChainRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChainRequest.m; sourceTree = "<group>"; };
-		CD27609D1FD7BABB0053D131 /* GroupRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GroupRequest.h; sourceTree = "<group>"; };
-		CD27609E1FD7BABB0053D131 /* GroupRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GroupRequest.m; sourceTree = "<group>"; };
 		CD2760A41FDA29210053D131 /* NSDictionary+JSON.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+JSON.m"; sourceTree = "<group>"; };
 		CD2760A51FDA29210053D131 /* NSDictionary+JSON.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+JSON.h"; sourceTree = "<group>"; };
-		CD2760A61FDA2D870053D131 /* RequestInterceptorProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RequestInterceptorProtocol.h; sourceTree = "<group>"; };
 		CD2760A71FDA2E340053D131 /* AFNetworkReachabilityManager+NNNetMonitor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AFNetworkReachabilityManager+NNNetMonitor.m"; sourceTree = "<group>"; };
 		CD2760A81FDA2E340053D131 /* AFNetworkReachabilityManager+NNNetMonitor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AFNetworkReachabilityManager+NNNetMonitor.h"; sourceTree = "<group>"; };
-		CD2760A91FDA2E9E0053D131 /* ResponseInterceptorProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ResponseInterceptorProtocol.h; sourceTree = "<group>"; };
-		CD7D69F31FDA349A005326F5 /* NetURLManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetURLManager.h; sourceTree = "<group>"; };
-		CD7D69F41FDA349B005326F5 /* NetURLManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetURLManager.m; sourceTree = "<group>"; };
-		CD7D69F61FDA3782005326F5 /* NetURLManager+Chain.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NetURLManager+Chain.h"; sourceTree = "<group>"; };
-		CD7D69F71FDA3782005326F5 /* NetURLManager+Chain.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NetURLManager+Chain.m"; sourceTree = "<group>"; };
 		CD979AAB216DD0FD009E43C3 /* UIViewController+NNUMengEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+NNUMengEvent.m"; sourceTree = "<group>"; };
 		CD979AAC216DD0FD009E43C3 /* UIViewController+NNUMengEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+NNUMengEvent.h"; sourceTree = "<group>"; };
 		CD979AAE216DD175009E43C3 /* UIImage+FEBoxBlur.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+FEBoxBlur.h"; sourceTree = "<group>"; };
@@ -147,6 +134,40 @@
 		CD979AEE216DD33D009E43C3 /* NNQRScannerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNQRScannerController.m; sourceTree = "<group>"; };
 		CD979AF0216DD479009E43C3 /* UIResponder+Router.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIResponder+Router.h"; sourceTree = "<group>"; };
 		CD979AF1216DD479009E43C3 /* UIResponder+Router.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIResponder+Router.m"; sourceTree = "<group>"; };
+		CD979AF7216DD761009E43C3 /* NSData+AES.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+AES.h"; sourceTree = "<group>"; };
+		CD979AF8216DD761009E43C3 /* NNConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNConstant.h; sourceTree = "<group>"; };
+		CD979AF9216DD761009E43C3 /* NSString+AES.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+AES.m"; sourceTree = "<group>"; };
+		CD979AFA216DD761009E43C3 /* NSDictionary+JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+JSON.h"; sourceTree = "<group>"; };
+		CD979AFB216DD761009E43C3 /* NNRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNRequest.m; sourceTree = "<group>"; };
+		CD979AFC216DD761009E43C3 /* NNURLManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNURLManager.h; sourceTree = "<group>"; };
+		CD979AFD216DD761009E43C3 /* NNGroupRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNGroupRequest.m; sourceTree = "<group>"; };
+		CD979AFE216DD761009E43C3 /* NSString+MD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MD5.h"; sourceTree = "<group>"; };
+		CD979AFF216DD761009E43C3 /* NNLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNLogger.m; sourceTree = "<group>"; };
+		CD979B00216DD761009E43C3 /* NNImageUploadRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNImageUploadRequest.m; sourceTree = "<group>"; };
+		CD979B01216DD761009E43C3 /* NNChainRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNChainRequest.h; sourceTree = "<group>"; };
+		CD979B02216DD761009E43C3 /* NNUploadRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNUploadRequest.m; sourceTree = "<group>"; };
+		CD979B03216DD761009E43C3 /* NNURLManager+Chain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NNURLManager+Chain.h"; sourceTree = "<group>"; };
+		CD979B04216DD761009E43C3 /* NNResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNResponse.h; sourceTree = "<group>"; };
+		CD979B05216DD761009E43C3 /* NNNetConfigure.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNNetConfigure.m; sourceTree = "<group>"; };
+		CD979B06216DD761009E43C3 /* NNURLManager+Group.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NNURLManager+Group.m"; sourceTree = "<group>"; };
+		CD979B07216DD761009E43C3 /* NNURLManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNURLManager.m; sourceTree = "<group>"; };
+		CD979B08216DD761009E43C3 /* NNRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNRequest.h; sourceTree = "<group>"; };
+		CD979B09216DD761009E43C3 /* NSDictionary+JSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+JSON.m"; sourceTree = "<group>"; };
+		CD979B0A216DD761009E43C3 /* NSData+AES.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+AES.m"; sourceTree = "<group>"; };
+		CD979B0B216DD761009E43C3 /* NSString+AES.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+AES.h"; sourceTree = "<group>"; };
+		CD979B0C216DD761009E43C3 /* NNNetWorking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNNetWorking.h; sourceTree = "<group>"; };
+		CD979B0D216DD761009E43C3 /* NNChainRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNChainRequest.m; sourceTree = "<group>"; };
+		CD979B0E216DD761009E43C3 /* NNImageUploadRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNImageUploadRequest.h; sourceTree = "<group>"; };
+		CD979B0F216DD761009E43C3 /* NNLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNLogger.h; sourceTree = "<group>"; };
+		CD979B10216DD761009E43C3 /* NNResponseInterceptorProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNResponseInterceptorProtocol.h; sourceTree = "<group>"; };
+		CD979B11216DD761009E43C3 /* NNRequestInterceptorProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNRequestInterceptorProtocol.h; sourceTree = "<group>"; };
+		CD979B12216DD761009E43C3 /* NSString+MD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5.m"; sourceTree = "<group>"; };
+		CD979B13216DD761009E43C3 /* NNGroupRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNGroupRequest.h; sourceTree = "<group>"; };
+		CD979B14216DD761009E43C3 /* NNURLManager+Group.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NNURLManager+Group.h"; sourceTree = "<group>"; };
+		CD979B15216DD761009E43C3 /* NNResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNResponse.m; sourceTree = "<group>"; };
+		CD979B16216DD761009E43C3 /* NNNetConfigure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNNetConfigure.h; sourceTree = "<group>"; };
+		CD979B17216DD761009E43C3 /* NNURLManager+Chain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NNURLManager+Chain.m"; sourceTree = "<group>"; };
+		CD979B18216DD761009E43C3 /* NNUploadRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNUploadRequest.h; sourceTree = "<group>"; };
 		CDE6B8061FD4E6AC00003634 /* HelloRecogition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloRecogition.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDE6B8091FD4E6AC00003634 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CDE6B80A1FD4E6AC00003634 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -223,7 +244,7 @@
 		CD27606F1FD4F1FB0053D131 /* Net */ = {
 			isa = PBXGroup;
 			children = (
-				CD2760731FD4F2FC0053D131 /* NetWorking */,
+				CD979AF6216DD761009E43C3 /* Core */,
 			);
 			path = Net;
 			sourceTree = "<group>";
@@ -236,33 +257,6 @@
 				CD27608E1FD673140053D131 /* SecurityUtil */,
 			);
 			path = Vender;
-			sourceTree = "<group>";
-		};
-		CD2760731FD4F2FC0053D131 /* NetWorking */ = {
-			isa = PBXGroup;
-			children = (
-				CD2760741FD4F35C0053D131 /* NetWorking.h */,
-				CD2760781FD4F4400053D131 /* Constant.h */,
-				CD27607C1FD66EF70053D131 /* Request.h */,
-				CD27607D1FD66EF70053D131 /* Request.m */,
-				CD2760A61FDA2D870053D131 /* RequestInterceptorProtocol.h */,
-				CD2760A91FDA2E9E0053D131 /* ResponseInterceptorProtocol.h */,
-				CD27609A1FD67CF20053D131 /* ChainRequest.h */,
-				CD27609B1FD67CF20053D131 /* ChainRequest.m */,
-				CD27609D1FD7BABB0053D131 /* GroupRequest.h */,
-				CD27609E1FD7BABB0053D131 /* GroupRequest.m */,
-				CD2760971FD675460053D131 /* Response.h */,
-				CD2760981FD675460053D131 /* Response.m */,
-				CD7D69F31FDA349A005326F5 /* NetURLManager.h */,
-				CD7D69F41FDA349B005326F5 /* NetURLManager.m */,
-				CD7D69F61FDA3782005326F5 /* NetURLManager+Chain.h */,
-				CD7D69F71FDA3782005326F5 /* NetURLManager+Chain.m */,
-				CD27607F1FD66F800053D131 /* NetConfigure.h */,
-				CD2760801FD66F800053D131 /* NetConfigure.m */,
-				CD2760751FD4F3F70053D131 /* Logger.h */,
-				CD2760761FD4F3F70053D131 /* Logger.m */,
-			);
-			path = NetWorking;
 			sourceTree = "<group>";
 		};
 		CD27608E1FD673140053D131 /* SecurityUtil */ = {
@@ -403,6 +397,47 @@
 				CD979AEE216DD33D009E43C3 /* NNQRScannerController.m */,
 			);
 			path = QRCode;
+			sourceTree = "<group>";
+		};
+		CD979AF6216DD761009E43C3 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				CD979AF7216DD761009E43C3 /* NSData+AES.h */,
+				CD979AF8216DD761009E43C3 /* NNConstant.h */,
+				CD979AF9216DD761009E43C3 /* NSString+AES.m */,
+				CD979AFA216DD761009E43C3 /* NSDictionary+JSON.h */,
+				CD979AFB216DD761009E43C3 /* NNRequest.m */,
+				CD979AFC216DD761009E43C3 /* NNURLManager.h */,
+				CD979AFD216DD761009E43C3 /* NNGroupRequest.m */,
+				CD979AFE216DD761009E43C3 /* NSString+MD5.h */,
+				CD979AFF216DD761009E43C3 /* NNLogger.m */,
+				CD979B00216DD761009E43C3 /* NNImageUploadRequest.m */,
+				CD979B01216DD761009E43C3 /* NNChainRequest.h */,
+				CD979B02216DD761009E43C3 /* NNUploadRequest.m */,
+				CD979B03216DD761009E43C3 /* NNURLManager+Chain.h */,
+				CD979B04216DD761009E43C3 /* NNResponse.h */,
+				CD979B05216DD761009E43C3 /* NNNetConfigure.m */,
+				CD979B06216DD761009E43C3 /* NNURLManager+Group.m */,
+				CD979B07216DD761009E43C3 /* NNURLManager.m */,
+				CD979B08216DD761009E43C3 /* NNRequest.h */,
+				CD979B09216DD761009E43C3 /* NSDictionary+JSON.m */,
+				CD979B0A216DD761009E43C3 /* NSData+AES.m */,
+				CD979B0B216DD761009E43C3 /* NSString+AES.h */,
+				CD979B0C216DD761009E43C3 /* NNNetWorking.h */,
+				CD979B0D216DD761009E43C3 /* NNChainRequest.m */,
+				CD979B0E216DD761009E43C3 /* NNImageUploadRequest.h */,
+				CD979B0F216DD761009E43C3 /* NNLogger.h */,
+				CD979B10216DD761009E43C3 /* NNResponseInterceptorProtocol.h */,
+				CD979B11216DD761009E43C3 /* NNRequestInterceptorProtocol.h */,
+				CD979B12216DD761009E43C3 /* NSString+MD5.m */,
+				CD979B13216DD761009E43C3 /* NNGroupRequest.h */,
+				CD979B14216DD761009E43C3 /* NNURLManager+Group.h */,
+				CD979B15216DD761009E43C3 /* NNResponse.m */,
+				CD979B16216DD761009E43C3 /* NNNetConfigure.h */,
+				CD979B17216DD761009E43C3 /* NNURLManager+Chain.m */,
+				CD979B18216DD761009E43C3 /* NNUploadRequest.h */,
+			);
+			path = Core;
 			sourceTree = "<group>";
 		};
 		CDE6B7FD1FD4E6AC00003634 = {
@@ -656,38 +691,45 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD979B23216DD761009E43C3 /* NSData+AES.m in Sources */,
 				CD979AEA216DD2C0009E43C3 /* qrspec.c in Sources */,
 				CD979ADF216DD2C0009E43C3 /* NNScanVideoZoomView.m in Sources */,
 				CD979AE3216DD2C0009E43C3 /* NNScannerResult.m in Sources */,
+				CD979B1A216DD761009E43C3 /* NNRequest.m in Sources */,
+				CD979B1D216DD761009E43C3 /* NNImageUploadRequest.m in Sources */,
+				CD979B1F216DD761009E43C3 /* NNNetConfigure.m in Sources */,
 				CD979ADC216DD2C0009E43C3 /* NNQRCodeScanner.m in Sources */,
-				CD27609F1FD7BABB0053D131 /* GroupRequest.m in Sources */,
+				CD979B26216DD761009E43C3 /* NNResponse.m in Sources */,
+				CD979B1E216DD761009E43C3 /* NNUploadRequest.m in Sources */,
+				CD979B22216DD761009E43C3 /* NSDictionary+JSON.m in Sources */,
 				CD979AE7216DD2C0009E43C3 /* split.c in Sources */,
-				CD7D69F51FDA349B005326F5 /* NetURLManager.m in Sources */,
 				CD979ADE216DD2C0009E43C3 /* NNScanLineAnimation.m in Sources */,
 				CD979AE0216DD2C0009E43C3 /* NNScanViewStyle.m in Sources */,
+				CD979B25216DD761009E43C3 /* NSString+MD5.m in Sources */,
 				CD979AE6216DD2C0009E43C3 /* qrencode.c in Sources */,
+				CD979B1C216DD761009E43C3 /* NNLogger.m in Sources */,
+				CD979B1B216DD761009E43C3 /* NNGroupRequest.m in Sources */,
 				CD979AE5216DD2C0009E43C3 /* bitstream.c in Sources */,
 				CD979AF2216DD479009E43C3 /* UIResponder+Router.m in Sources */,
 				CD979AE2216DD2C0009E43C3 /* NNScanStyle.m in Sources */,
+				CD979B20216DD761009E43C3 /* NNURLManager+Group.m in Sources */,
 				CD979AE9216DD2C0009E43C3 /* mask.c in Sources */,
+				CD979B19216DD761009E43C3 /* NSString+AES.m in Sources */,
 				CD979AEB216DD2C0009E43C3 /* rscode.c in Sources */,
+				CD979B24216DD761009E43C3 /* NNChainRequest.m in Sources */,
 				CDE6B80E1FD4E6AC00003634 /* ViewController.m in Sources */,
-				CD27607E1FD66EF70053D131 /* Request.m in Sources */,
 				CD979AE1216DD2C0009E43C3 /* NNScanBaseController.m in Sources */,
 				CD979AE8216DD2C0009E43C3 /* qrinput.c in Sources */,
 				CD979AEF216DD33D009E43C3 /* NNQRScannerController.m in Sources */,
 				CD979AAD216DD0FD009E43C3 /* UIViewController+NNUMengEvent.m in Sources */,
-				CD2760991FD675460053D131 /* Response.m in Sources */,
+				CD979B21216DD761009E43C3 /* NNURLManager.m in Sources */,
 				CD979ADD216DD2C0009E43C3 /* NNScanView.m in Sources */,
 				CDE6B8191FD4E6AC00003634 /* main.m in Sources */,
 				CD979ADB216DD2C0009E43C3 /* NNScanNetAnimation.m in Sources */,
 				CD979AB4216DD25F009E43C3 /* NSDate+MJ.m in Sources */,
+				CD979B27216DD761009E43C3 /* NNURLManager+Chain.m in Sources */,
 				CD979AB0216DD175009E43C3 /* UIImage+FEBoxBlur.m in Sources */,
 				CDE6B80B1FD4E6AC00003634 /* AppDelegate.m in Sources */,
-				CD27609C1FD67CF20053D131 /* ChainRequest.m in Sources */,
-				CD7D69F81FDA3782005326F5 /* NetURLManager+Chain.m in Sources */,
-				CD2760811FD66F800053D131 /* NetConfigure.m in Sources */,
-				CD2760771FD4F3F70053D131 /* Logger.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

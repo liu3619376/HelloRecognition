@@ -1,19 +1,19 @@
 //
-//  NetWorking.h
-//  HelloRecogition
+//  NNNetWorking.h
+//  NNNetWorking
 //
-//  Created by liuyang on 2017/12/4.
-//  Copyright © 2017年 liuyang. All rights reserved.
+//  Created by shizhi on 2017/6/6.
+//  Copyright © 2017年 Hunan nian information technology co., LTD. All rights reserved.
 //
 
-#ifndef NetWorking_h
-#define NetWorking_h
+#ifndef NNNetWorking_h
+#define NNNetWorking_h
 
-#import "Logger.h"
-#import "Request.h"
-#import "Response.h"
+#import "NNLogger.h"
+#import "NNRequest.h"
 #import "NSData+AES.h"
-#import "Constant.h"
+#import "NNConstant.h"
+#import "NNResponse.h"
 #import "NSString+MD5.h"
 #import "NSString+AES.h"
 #import "NNURLManager.h"
@@ -26,4 +26,5 @@
 #import "NNRequestInterceptorProtocol.h"
 #import "NNResponseInterceptorProtocol.h"
 
-#endif /* NetWorking_h */
+
+#endif /* NNNetWorking_h */

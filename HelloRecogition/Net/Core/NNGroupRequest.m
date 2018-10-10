@@ -1,32 +1,32 @@
 //
-//  GroupRequest.m
-//  HelloRecogition
+//  NNGroupRequest.m
+//  NNNetWorking
 //
-//  Created by liuyang on 2017/12/6.
-//  Copyright © 2017年 liuyang. All rights reserved.
+//  Created by shizhi on 2017/6/12.
+//  Copyright © 2017年 Hunan nian information technology co., LTD. All rights reserved.
 //
 
-#import "GroupRequest.h"
-#import "Constant.h"
-#import "Response.h"
+#import "NNGroupRequest.h"
+#import "NNConstant.h"
+#import "NNResponse.h"
 
-@interface GroupRequest()
+@interface NNGroupRequest ()
 
 @property (nonatomic, strong) dispatch_semaphore_t lock;
 @property (nonatomic, assign) NSUInteger finishedCount;
 @property (nonatomic, assign, getter=isFailed) BOOL failed;
-@property (nonatomic, copy) GroupResponseBlock completeBlock;
 
+@property (nonatomic, copy) NNGroupResponseBlock completeBlock;
 @end
 
-@implementation GroupRequest
+@implementation NNGroupRequest
 
 - (instancetype)init {
     self = [super init];
     if (self) {
         _requestArray = [NSMutableArray new];
         _responseArray = [NSMutableArray new];
-        
+
         _failed = NO;
         _finishedCount = 0;
         _lock = dispatch_semaphore_create(1);
@@ -34,18 +34,18 @@
     return self;
 }
 
-- (void)addRequest:(Request *)request {
+- (void)addRequest:(NNRequest *)request {
     [_requestArray addObject:request];
 }
 
-- (BOOL)onFinishedOneRequest:(Request *)request response:(nullable Response *)responseObject {
+- (BOOL)onFinishedOneRequest:(NNRequest *)request response:(nullable NNResponse *)responseObject {
     BOOL isFinished = NO;
     dispatch_semaphore_wait(_lock, DISPATCH_TIME_FOREVER);
     if (responseObject) {
         [_responseArray addObject:responseObject];
     }
-    _failed |= (responseObject.status == ResponseStatusError);
-    
+    _failed |= (responseObject.status == NNResponseStatusError);
+
     _finishedCount++;
     if (_finishedCount == _requestArray.count) {
         if (_completeBlock) {
@@ -61,6 +61,5 @@
 - (void)cleanCallbackBlocks {
     _completeBlock = nil;
 }
-
 
 @end

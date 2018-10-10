@@ -1,21 +1,21 @@
 //
-//  Request.h
-//  HelloRecogition
+//  NNRequest.h
+//  NNNetWorking
 //
-//  Created by liuyang on 2017/12/5.
-//  Copyright © 2017年 liuyang. All rights reserved.
+//  Created by shizhi on 2017/6/7.
+//  Copyright © 2017年 Hunan nian information technology co., LTD. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
-#import "Constant.h"
+#import "NNConstant.h"
 
 /**
  网络请求参数数据类
  */
-@interface Request : NSObject
+@interface NNRequest : NSObject
 
 /**
- 请求 Base URL，优先级高于 [NetConfigure generalServer];
+ 请求 Base URL，优先级高于 [NNNetConfigure generalServer];
  */
 @property (nonatomic, copy) NSString *reqeustURLString;
 
@@ -40,9 +40,9 @@
 @property (nonatomic, strong) NSDictionary *normalParams;
 
 /**
- 请求方式 默认为 RequestTypePost
+ 请求方式 默认为 NNRequestTypePost
  */
-@property (nonatomic, assign) RequestType requestMethod;
+@property (nonatomic, assign) NNRequestType requestMethod;
 
 /**
  请求超时时间 默认 30s
@@ -60,8 +60,3 @@
 @property (nonatomic, assign) UInt8 retryCount NS_UNAVAILABLE;
 
 @end
-
-@interface Request (Generate)
-- (NSURLRequest *)generateRequest;
-@end
-
