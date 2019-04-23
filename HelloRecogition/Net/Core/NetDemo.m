@@ -26,7 +26,7 @@
 
 -(void)Demo2
 {
-    //多任务
+    //多任务 异步请求
      LLGroupRequest *request = [[LLGroupRequest alloc] init];
      LLRequest *reques1 = [[LLRequest alloc] init];
      LLRequest *reques2 = [[LLRequest alloc] init];
@@ -48,7 +48,7 @@
 
 -(void)Demo3
 {
-    
+    //多任务顺序同步请求
     [[LLURLManager manager] sendChainRequest:^(LLChainRequest * _Nullable chainRequest) {
         [chainRequest onFirst:^(LLRequest * _Nullable request) {
             request.requestPath = @"";

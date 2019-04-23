@@ -47,16 +47,14 @@
 /// 生成 POST Body 数据
 - (NSDictionary *)__generateRequestBody
 {
-    NSDictionary *commonDict = [LLNetConfigure share].generalParameters;
+    NSMutableDictionary *commonDict = [LLNetConfigure share].generalParameters.mutableCopy;
 
     NSMutableDictionary *encryptDict = @{}.mutableCopy;
     NSAssert(self.requestPath.length > 0, @"请求 Path 不能为空");
-    encryptDict[@"uri"] = self.requestPath;
     [encryptDict addEntriesFromDictionary:commonDict];
-    [encryptDict addEntriesFromDictionary:self.encryptParams];
-
     NSMutableDictionary *rslt = @{}.mutableCopy;
     [rslt addEntriesFromDictionary:self.normalParams];
+    //参数加密
   //  rslt[@"params2"] = [[encryptDict LL_jsonString] LL_encryptAESAndBase64Data];
 
     
@@ -64,11 +62,12 @@
     return rslt;
 }
 
+//这里可以进行域名拼接生成链接地址
 - (NSString *)__generateRequestURL
 {
-    if (self.reqeustURLString.length > 0)
+    if (self.baseURL.length > 0)
     {
-        return self.reqeustURLString;
+        return self.baseURL;
     }
     return [LLNetConfigure share].generalServer;
 }
@@ -86,7 +85,7 @@
     serializer.timeoutInterval = [self reqeustTimeoutInterval];
     serializer.cachePolicy = NSURLRequestUseProtocolCachePolicy;
 
-    NSMutableURLRequest *request = [serializer requestWithMethod:[self httpMethod] URLString:urlString parameters:[self __generateRequestBody] error:NULL];
+    NSMutableURLRequest *request = [serializer requestWithMethod:[self httpMethod] URLString:[urlString stringByAppendingString:self.requestPath] parameters:[self __generateRequestBody] error:NULL];
 
     // header
     NSMutableDictionary *header = request.allHTTPHeaderFields.mutableCopy;
@@ -94,8 +93,10 @@
     {
         header = @{}.mutableCopy;
     }
+    
     [header addEntriesFromDictionary:[LLNetConfigure share].generalHeaders];
-    request.allHTTPHeaderFields = header;
+    [header addEntriesFromDictionary:self.requestHeader]; //添加自定义头请求
+    request.allHTTPHeaderFields = header.copy;//拼接完成的请求头
 
     return request.copy;
 }

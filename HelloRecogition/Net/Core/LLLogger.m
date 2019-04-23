@@ -49,9 +49,8 @@
     [logString appendFormat:@"Method:\t\t\t%@\n", [LLLogger httpMethod:[request requestMethod]]];
     [logString appendFormat:@"Version:\t\t%@\n", request.apiVersion];
     [logString appendFormat:@"Service:\t\t%@\n", request.requestPath];
-    [logString appendFormat:@"Params:\n%@", request.encryptParams];
-
-    [logString appendFormat:@"\n\nHTTP URL:\n\t%@", request.reqeustURLString];
+    [logString appendFormat:@"normalParams:\n%@", request.normalParams];
+    [logString appendFormat:@"\n\nHTTP URL:\n\t%@", request.baseURL];
     [logString appendFormat:@"\n\n**************************************************************\n*                         Request End                        "
                             @"*\n**************************************************************\n\n\n\n"];
     NSLog(@"%@", logString);

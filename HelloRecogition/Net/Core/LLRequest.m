@@ -16,7 +16,6 @@
     if (self) {
         _requestMethod = LLRequestTypePost;
         _reqeustTimeoutInterval = 30.0;
-        _encryptParams = @{};
         _normalParams = @{};
         _requestHeader = @{};
         _retryCount = 0;

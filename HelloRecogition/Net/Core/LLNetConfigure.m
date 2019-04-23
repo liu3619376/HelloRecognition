@@ -23,6 +23,7 @@
     self = [super init];
     if (self) {
         _enableDebug = false;
+        _generalServer = @"";
     }
     return self;
 }
@@ -39,6 +40,15 @@
     NSMutableDictionary *mDict = manager.generalParameters.mutableCopy;
     [mDict removeObjectForKey:sKey];
     manager.generalParameters = mDict.copy;
+}
+
+- (NSDictionary<NSString *,NSString *> *)generalHeaders{
+#warning 需要与后端协议
+    return @{
+           //  @"User-Agent" : @"iPhone",
+             //             @"Charset" : @"UTF-8",
+             //             @"Accept-Encoding" : @"gzip"
+             };
 }
 
 @end

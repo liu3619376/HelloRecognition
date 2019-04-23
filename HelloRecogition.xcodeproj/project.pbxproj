@@ -23,7 +23,6 @@
 		6102DCF2226EF6D900726054 /* LLGroupRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 6102DCDF226EF6D900726054 /* LLGroupRequest.m */; };
 		6102DCF3226EF6D900726054 /* LLImageUploadRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 6102DCE0226EF6D900726054 /* LLImageUploadRequest.m */; };
 		6102DCF4226EF6D900726054 /* LLURLManager+Group.m in Sources */ = {isa = PBXBuildFile; fileRef = 6102DCE2226EF6D900726054 /* LLURLManager+Group.m */; };
-		CC39DC9A378248C237E8325F /* libPods-HelloRecogition.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 23203F38C16EFF40F16A4E85 /* libPods-HelloRecogition.a */; };
 		CD979AAD216DD0FD009E43C3 /* UIViewController+NNUMengEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = CD979AAB216DD0FD009E43C3 /* UIViewController+NNUMengEvent.m */; };
 		CD979AB0216DD175009E43C3 /* UIImage+FEBoxBlur.m in Sources */ = {isa = PBXBuildFile; fileRef = CD979AAF216DD175009E43C3 /* UIImage+FEBoxBlur.m */; };
 		CD979AB4216DD25F009E43C3 /* NSDate+MJ.m in Sources */ = {isa = PBXBuildFile; fileRef = CD979AB3216DD25F009E43C3 /* NSDate+MJ.m */; };
@@ -75,8 +74,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		23203F38C16EFF40F16A4E85 /* libPods-HelloRecogition.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HelloRecogition.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		55E0990D85C3EBB08F1B7509 /* Pods-HelloRecogition.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloRecogition.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HelloRecogition/Pods-HelloRecogition.debug.xcconfig"; sourceTree = "<group>"; };
 		6102DCC1226EF6D900726054 /* NSData+AES.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+AES.h"; sourceTree = "<group>"; };
 		6102DCC2226EF6D900726054 /* NSString+AES.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+AES.m"; sourceTree = "<group>"; };
 		6102DCC3226EF6D900726054 /* NSDictionary+JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+JSON.h"; sourceTree = "<group>"; };
@@ -113,7 +110,6 @@
 		6102DCE2226EF6D900726054 /* LLURLManager+Group.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "LLURLManager+Group.m"; sourceTree = "<group>"; };
 		6102DCE3226EF6D900726054 /* LLChainRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLChainRequest.h; sourceTree = "<group>"; };
 		6102DCE4226EF6D900726054 /* NetDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetDemo.h; sourceTree = "<group>"; };
-		93F84EBE8DADDEAFD41CD86D /* Pods-HelloRecogition.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloRecogition.release.xcconfig"; path = "Pods/Target Support Files/Pods-HelloRecogition/Pods-HelloRecogition.release.xcconfig"; sourceTree = "<group>"; };
 		CD27606A1FD4EF960053D131 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		CD27608F1FD673200053D131 /* SecurityUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecurityUtil.m; sourceTree = "<group>"; };
 		CD2760901FD673200053D131 /* SecurityUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecurityUtil.h; sourceTree = "<group>"; };
@@ -194,7 +190,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CC39DC9A378248C237E8325F /* libPods-HelloRecogition.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -218,7 +213,6 @@
 		2723C64C3FAD86B9B627823F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				23203F38C16EFF40F16A4E85 /* libPods-HelloRecogition.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -278,15 +272,6 @@
 				6102DCDC226EF6D900726054 /* NSString+MD5.m */,
 			);
 			path = Core;
-			sourceTree = "<group>";
-		};
-		BAFDB8C2842FD33216C1E243 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				55E0990D85C3EBB08F1B7509 /* Pods-HelloRecogition.debug.xcconfig */,
-				93F84EBE8DADDEAFD41CD86D /* Pods-HelloRecogition.release.xcconfig */,
-			);
-			name = Pods;
 			sourceTree = "<group>";
 		};
 		CD27606E1FD4F1FB0053D131 /* Category */ = {
@@ -438,7 +423,6 @@
 				CDE6B8211FD4E6AD00003634 /* HelloRecogitionTests */,
 				CDE6B82C1FD4E6AD00003634 /* HelloRecogitionUITests */,
 				CDE6B8071FD4E6AC00003634 /* Products */,
-				BAFDB8C2842FD33216C1E243 /* Pods */,
 				2723C64C3FAD86B9B627823F /* Frameworks */,
 			);
 			sourceTree = "<group>";
@@ -880,32 +864,36 @@
 		};
 		CDE6B8331FD4E6AD00003634 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 55E0990D85C3EBB08F1B7509 /* Pods-HelloRecogition.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "";
 				EXECUTABLE_PREFIX = "";
 				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/HelloRecogition/PrefixHeader.pch";
 				INFOPLIST_FILE = HelloRecogition/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hello.recogition;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		CDE6B8341FD4E6AD00003634 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 93F84EBE8DADDEAFD41CD86D /* Pods-HelloRecogition.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "";
 				EXECUTABLE_PREFIX = "";
 				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/HelloRecogition/PrefixHeader.pch";
 				INFOPLIST_FILE = HelloRecogition/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hello.recogition;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

@@ -15,12 +15,12 @@
 @interface LLRequest : NSObject
 
 /**
- 请求 Base URL，优先级高于 [LLNetConfigure generalServer];
+ 应用服务器，网络请求的 Base URL （eg: http://ios.12306.com )
  */
-@property (nonatomic, copy) NSString *reqeustURLString;
+@property (nonatomic, copy) NSString *baseURL;
 
 /**
- 请求路径 eg: /login2
+/// 请求路径，会自动拼接在baseURL或generalServer之后 （eg: /login）
  */
 @property (nonatomic, copy) NSString *requestPath;
 
@@ -28,11 +28,6 @@
  请求头，默认为空 @{}
  */
 @property (nonatomic, strong) NSDictionary *requestHeader;
-
-/**
- 请求参数，加密参数 默认为空 @{}
- */
-@property (nonatomic, strong) NSDictionary *encryptParams;
 
 /**
  请求参数，不用加密 默认为 @{}
