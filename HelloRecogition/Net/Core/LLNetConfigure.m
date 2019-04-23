@@ -22,8 +22,14 @@
 - (instancetype)init {
     self = [super init];
     if (self) {
-        _enableDebug = false;
+        
+#ifdef DEBUG
+         _enableDebug = true;
+#else
+         _enableDebug = false;
+#endif
         _generalServer = @"";
+       
     }
     return self;
 }
