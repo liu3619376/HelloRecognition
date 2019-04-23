@@ -7,6 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6102DC0F226DBA8F00726054 /* NSString+AES.m in Sources */ = {isa = PBXBuildFile; fileRef = 6102DBEC226DBA8F00726054 /* NSString+AES.m */; };
+		6102DC10226DBA8F00726054 /* LLResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 6102DBEF226DBA8F00726054 /* LLResponse.m */; };
+		6102DC11226DBA8F00726054 /* LLRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 6102DBF0226DBA8F00726054 /* LLRequest.m */; };
+		6102DC12226DBA8F00726054 /* NetDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 6102DBF5226DBA8F00726054 /* NetDemo.m */; };
+		6102DC13226DBA8F00726054 /* LLChainRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 6102DBF6226DBA8F00726054 /* LLChainRequest.m */; };
+		6102DC14226DBA8F00726054 /* LLURLManager+Chain.m in Sources */ = {isa = PBXBuildFile; fileRef = 6102DBF8226DBA8F00726054 /* LLURLManager+Chain.m */; };
+		6102DC15226DBA8F00726054 /* LLLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 6102DBFB226DBA8F00726054 /* LLLogger.m */; };
+		6102DC16226DBA8F00726054 /* NSDictionary+JSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 6102DBFD226DBA8F00726054 /* NSDictionary+JSON.m */; };
+		6102DC17226DBA8F00726054 /* NSData+AES.m in Sources */ = {isa = PBXBuildFile; fileRef = 6102DBFE226DBA8F00726054 /* NSData+AES.m */; };
+		6102DC18226DBA8F00726054 /* LLURLManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6102DC00226DBA8F00726054 /* LLURLManager.m */; };
+		6102DC19226DBA8F00726054 /* NSString+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = 6102DC06226DBA8F00726054 /* NSString+MD5.m */; };
+		6102DC1A226DBA8F00726054 /* LLNetConfigure.m in Sources */ = {isa = PBXBuildFile; fileRef = 6102DC07226DBA8F00726054 /* LLNetConfigure.m */; };
+		6102DC1B226DBA8F00726054 /* LLUploadRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 6102DC08226DBA8F00726054 /* LLUploadRequest.m */; };
+		6102DC1C226DBA8F00726054 /* LLGroupRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 6102DC09226DBA8F00726054 /* LLGroupRequest.m */; };
+		6102DC1D226DBA8F00726054 /* LLImageUploadRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 6102DC0A226DBA8F00726054 /* LLImageUploadRequest.m */; };
+		6102DC1E226DBA8F00726054 /* LLURLManager+Group.m in Sources */ = {isa = PBXBuildFile; fileRef = 6102DC0C226DBA8F00726054 /* LLURLManager+Group.m */; };
 		CC39DC9A378248C237E8325F /* libPods-HelloRecogition.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 23203F38C16EFF40F16A4E85 /* libPods-HelloRecogition.a */; };
 		CD979AAD216DD0FD009E43C3 /* UIViewController+NNUMengEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = CD979AAB216DD0FD009E43C3 /* UIViewController+NNUMengEvent.m */; };
 		CD979AB0216DD175009E43C3 /* UIImage+FEBoxBlur.m in Sources */ = {isa = PBXBuildFile; fileRef = CD979AAF216DD175009E43C3 /* UIImage+FEBoxBlur.m */; };
@@ -31,21 +47,6 @@
 		CD979AEB216DD2C0009E43C3 /* rscode.c in Sources */ = {isa = PBXBuildFile; fileRef = CD979AD8216DD2C0009E43C3 /* rscode.c */; };
 		CD979AEF216DD33D009E43C3 /* NNQRScannerController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD979AEE216DD33D009E43C3 /* NNQRScannerController.m */; };
 		CD979AF2216DD479009E43C3 /* UIResponder+Router.m in Sources */ = {isa = PBXBuildFile; fileRef = CD979AF1216DD479009E43C3 /* UIResponder+Router.m */; };
-		CD979B19216DD761009E43C3 /* NSString+AES.m in Sources */ = {isa = PBXBuildFile; fileRef = CD979AF9216DD761009E43C3 /* NSString+AES.m */; };
-		CD979B1A216DD761009E43C3 /* NNRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = CD979AFB216DD761009E43C3 /* NNRequest.m */; };
-		CD979B1B216DD761009E43C3 /* NNGroupRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = CD979AFD216DD761009E43C3 /* NNGroupRequest.m */; };
-		CD979B1C216DD761009E43C3 /* NNLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = CD979AFF216DD761009E43C3 /* NNLogger.m */; };
-		CD979B1D216DD761009E43C3 /* NNImageUploadRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = CD979B00216DD761009E43C3 /* NNImageUploadRequest.m */; };
-		CD979B1E216DD761009E43C3 /* NNUploadRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = CD979B02216DD761009E43C3 /* NNUploadRequest.m */; };
-		CD979B1F216DD761009E43C3 /* NNNetConfigure.m in Sources */ = {isa = PBXBuildFile; fileRef = CD979B05216DD761009E43C3 /* NNNetConfigure.m */; };
-		CD979B20216DD761009E43C3 /* NNURLManager+Group.m in Sources */ = {isa = PBXBuildFile; fileRef = CD979B06216DD761009E43C3 /* NNURLManager+Group.m */; };
-		CD979B21216DD761009E43C3 /* NNURLManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CD979B07216DD761009E43C3 /* NNURLManager.m */; };
-		CD979B22216DD761009E43C3 /* NSDictionary+JSON.m in Sources */ = {isa = PBXBuildFile; fileRef = CD979B09216DD761009E43C3 /* NSDictionary+JSON.m */; };
-		CD979B23216DD761009E43C3 /* NSData+AES.m in Sources */ = {isa = PBXBuildFile; fileRef = CD979B0A216DD761009E43C3 /* NSData+AES.m */; };
-		CD979B24216DD761009E43C3 /* NNChainRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = CD979B0D216DD761009E43C3 /* NNChainRequest.m */; };
-		CD979B25216DD761009E43C3 /* NSString+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = CD979B12216DD761009E43C3 /* NSString+MD5.m */; };
-		CD979B26216DD761009E43C3 /* NNResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = CD979B15216DD761009E43C3 /* NNResponse.m */; };
-		CD979B27216DD761009E43C3 /* NNURLManager+Chain.m in Sources */ = {isa = PBXBuildFile; fileRef = CD979B17216DD761009E43C3 /* NNURLManager+Chain.m */; };
 		CDE6B80B1FD4E6AC00003634 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CDE6B80A1FD4E6AC00003634 /* AppDelegate.m */; };
 		CDE6B80E1FD4E6AC00003634 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDE6B80D1FD4E6AC00003634 /* ViewController.m */; };
 		CDE6B8111FD4E6AC00003634 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDE6B80F1FD4E6AC00003634 /* Main.storyboard */; };
@@ -76,6 +77,42 @@
 /* Begin PBXFileReference section */
 		23203F38C16EFF40F16A4E85 /* libPods-HelloRecogition.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HelloRecogition.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		55E0990D85C3EBB08F1B7509 /* Pods-HelloRecogition.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloRecogition.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HelloRecogition/Pods-HelloRecogition.debug.xcconfig"; sourceTree = "<group>"; };
+		6102DBEB226DBA8F00726054 /* NSData+AES.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+AES.h"; sourceTree = "<group>"; };
+		6102DBEC226DBA8F00726054 /* NSString+AES.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+AES.m"; sourceTree = "<group>"; };
+		6102DBED226DBA8F00726054 /* NSDictionary+JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+JSON.h"; sourceTree = "<group>"; };
+		6102DBEE226DBA8F00726054 /* LLLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLLogger.h; sourceTree = "<group>"; };
+		6102DBEF226DBA8F00726054 /* LLResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLResponse.m; sourceTree = "<group>"; };
+		6102DBF0226DBA8F00726054 /* LLRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLRequest.m; sourceTree = "<group>"; };
+		6102DBF1226DBA8F00726054 /* LLURLManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLURLManager.h; sourceTree = "<group>"; };
+		6102DBF2226DBA8F00726054 /* LLUploadRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLUploadRequest.h; sourceTree = "<group>"; };
+		6102DBF3226DBA8F00726054 /* LLNetConfigure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLNetConfigure.h; sourceTree = "<group>"; };
+		6102DBF4226DBA8F00726054 /* NSString+MD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MD5.h"; sourceTree = "<group>"; };
+		6102DBF5226DBA8F00726054 /* NetDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetDemo.m; sourceTree = "<group>"; };
+		6102DBF6226DBA8F00726054 /* LLChainRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLChainRequest.m; sourceTree = "<group>"; };
+		6102DBF7226DBA8F00726054 /* LLURLManager+Group.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LLURLManager+Group.h"; sourceTree = "<group>"; };
+		6102DBF8226DBA8F00726054 /* LLURLManager+Chain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "LLURLManager+Chain.m"; sourceTree = "<group>"; };
+		6102DBF9226DBA8F00726054 /* LLGroupRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLGroupRequest.h; sourceTree = "<group>"; };
+		6102DBFA226DBA8F00726054 /* LLImageUploadRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLImageUploadRequest.h; sourceTree = "<group>"; };
+		6102DBFB226DBA8F00726054 /* LLLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLLogger.m; sourceTree = "<group>"; };
+		6102DBFC226DBA8F00726054 /* LLNetWorking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLNetWorking.h; sourceTree = "<group>"; };
+		6102DBFD226DBA8F00726054 /* NSDictionary+JSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+JSON.m"; sourceTree = "<group>"; };
+		6102DBFE226DBA8F00726054 /* NSData+AES.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+AES.m"; sourceTree = "<group>"; };
+		6102DBFF226DBA8F00726054 /* NSString+AES.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+AES.h"; sourceTree = "<group>"; };
+		6102DC00226DBA8F00726054 /* LLURLManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLURLManager.m; sourceTree = "<group>"; };
+		6102DC01226DBA8F00726054 /* LLRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLRequest.h; sourceTree = "<group>"; };
+		6102DC02226DBA8F00726054 /* LLResponseInterceptorProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLResponseInterceptorProtocol.h; sourceTree = "<group>"; };
+		6102DC03226DBA8F00726054 /* LLResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLResponse.h; sourceTree = "<group>"; };
+		6102DC04226DBA8F00726054 /* LLRequestInterceptorProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLRequestInterceptorProtocol.h; sourceTree = "<group>"; };
+		6102DC05226DBA8F00726054 /* LLConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLConstant.h; sourceTree = "<group>"; };
+		6102DC06226DBA8F00726054 /* NSString+MD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5.m"; sourceTree = "<group>"; };
+		6102DC07226DBA8F00726054 /* LLNetConfigure.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLNetConfigure.m; sourceTree = "<group>"; };
+		6102DC08226DBA8F00726054 /* LLUploadRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLUploadRequest.m; sourceTree = "<group>"; };
+		6102DC09226DBA8F00726054 /* LLGroupRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLGroupRequest.m; sourceTree = "<group>"; };
+		6102DC0A226DBA8F00726054 /* LLImageUploadRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLImageUploadRequest.m; sourceTree = "<group>"; };
+		6102DC0B226DBA8F00726054 /* LLURLManager+Chain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LLURLManager+Chain.h"; sourceTree = "<group>"; };
+		6102DC0C226DBA8F00726054 /* LLURLManager+Group.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "LLURLManager+Group.m"; sourceTree = "<group>"; };
+		6102DC0D226DBA8F00726054 /* LLChainRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLChainRequest.h; sourceTree = "<group>"; };
+		6102DC0E226DBA8F00726054 /* NetDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetDemo.h; sourceTree = "<group>"; };
 		93F84EBE8DADDEAFD41CD86D /* Pods-HelloRecogition.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloRecogition.release.xcconfig"; path = "Pods/Target Support Files/Pods-HelloRecogition/Pods-HelloRecogition.release.xcconfig"; sourceTree = "<group>"; };
 		CD27606A1FD4EF960053D131 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		CD27608F1FD673200053D131 /* SecurityUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecurityUtil.m; sourceTree = "<group>"; };
@@ -134,40 +171,6 @@
 		CD979AEE216DD33D009E43C3 /* NNQRScannerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNQRScannerController.m; sourceTree = "<group>"; };
 		CD979AF0216DD479009E43C3 /* UIResponder+Router.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIResponder+Router.h"; sourceTree = "<group>"; };
 		CD979AF1216DD479009E43C3 /* UIResponder+Router.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIResponder+Router.m"; sourceTree = "<group>"; };
-		CD979AF7216DD761009E43C3 /* NSData+AES.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+AES.h"; sourceTree = "<group>"; };
-		CD979AF8216DD761009E43C3 /* NNConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNConstant.h; sourceTree = "<group>"; };
-		CD979AF9216DD761009E43C3 /* NSString+AES.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+AES.m"; sourceTree = "<group>"; };
-		CD979AFA216DD761009E43C3 /* NSDictionary+JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+JSON.h"; sourceTree = "<group>"; };
-		CD979AFB216DD761009E43C3 /* NNRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNRequest.m; sourceTree = "<group>"; };
-		CD979AFC216DD761009E43C3 /* NNURLManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNURLManager.h; sourceTree = "<group>"; };
-		CD979AFD216DD761009E43C3 /* NNGroupRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNGroupRequest.m; sourceTree = "<group>"; };
-		CD979AFE216DD761009E43C3 /* NSString+MD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MD5.h"; sourceTree = "<group>"; };
-		CD979AFF216DD761009E43C3 /* NNLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNLogger.m; sourceTree = "<group>"; };
-		CD979B00216DD761009E43C3 /* NNImageUploadRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNImageUploadRequest.m; sourceTree = "<group>"; };
-		CD979B01216DD761009E43C3 /* NNChainRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNChainRequest.h; sourceTree = "<group>"; };
-		CD979B02216DD761009E43C3 /* NNUploadRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNUploadRequest.m; sourceTree = "<group>"; };
-		CD979B03216DD761009E43C3 /* NNURLManager+Chain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NNURLManager+Chain.h"; sourceTree = "<group>"; };
-		CD979B04216DD761009E43C3 /* NNResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNResponse.h; sourceTree = "<group>"; };
-		CD979B05216DD761009E43C3 /* NNNetConfigure.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNNetConfigure.m; sourceTree = "<group>"; };
-		CD979B06216DD761009E43C3 /* NNURLManager+Group.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NNURLManager+Group.m"; sourceTree = "<group>"; };
-		CD979B07216DD761009E43C3 /* NNURLManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNURLManager.m; sourceTree = "<group>"; };
-		CD979B08216DD761009E43C3 /* NNRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNRequest.h; sourceTree = "<group>"; };
-		CD979B09216DD761009E43C3 /* NSDictionary+JSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+JSON.m"; sourceTree = "<group>"; };
-		CD979B0A216DD761009E43C3 /* NSData+AES.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+AES.m"; sourceTree = "<group>"; };
-		CD979B0B216DD761009E43C3 /* NSString+AES.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+AES.h"; sourceTree = "<group>"; };
-		CD979B0C216DD761009E43C3 /* NNNetWorking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNNetWorking.h; sourceTree = "<group>"; };
-		CD979B0D216DD761009E43C3 /* NNChainRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNChainRequest.m; sourceTree = "<group>"; };
-		CD979B0E216DD761009E43C3 /* NNImageUploadRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNImageUploadRequest.h; sourceTree = "<group>"; };
-		CD979B0F216DD761009E43C3 /* NNLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNLogger.h; sourceTree = "<group>"; };
-		CD979B10216DD761009E43C3 /* NNResponseInterceptorProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNResponseInterceptorProtocol.h; sourceTree = "<group>"; };
-		CD979B11216DD761009E43C3 /* NNRequestInterceptorProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNRequestInterceptorProtocol.h; sourceTree = "<group>"; };
-		CD979B12216DD761009E43C3 /* NSString+MD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5.m"; sourceTree = "<group>"; };
-		CD979B13216DD761009E43C3 /* NNGroupRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNGroupRequest.h; sourceTree = "<group>"; };
-		CD979B14216DD761009E43C3 /* NNURLManager+Group.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NNURLManager+Group.h"; sourceTree = "<group>"; };
-		CD979B15216DD761009E43C3 /* NNResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNResponse.m; sourceTree = "<group>"; };
-		CD979B16216DD761009E43C3 /* NNNetConfigure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNNetConfigure.h; sourceTree = "<group>"; };
-		CD979B17216DD761009E43C3 /* NNURLManager+Chain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NNURLManager+Chain.m"; sourceTree = "<group>"; };
-		CD979B18216DD761009E43C3 /* NNUploadRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNUploadRequest.h; sourceTree = "<group>"; };
 		CDE6B8061FD4E6AC00003634 /* HelloRecogition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloRecogition.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDE6B8091FD4E6AC00003634 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CDE6B80A1FD4E6AC00003634 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -220,6 +223,50 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		6102DBEA226DBA8F00726054 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				6102DC0E226DBA8F00726054 /* NetDemo.h */,
+				6102DBF5226DBA8F00726054 /* NetDemo.m */,
+				6102DC0D226DBA8F00726054 /* LLChainRequest.h */,
+				6102DBF6226DBA8F00726054 /* LLChainRequest.m */,
+				6102DC05226DBA8F00726054 /* LLConstant.h */,
+				6102DBF9226DBA8F00726054 /* LLGroupRequest.h */,
+				6102DC09226DBA8F00726054 /* LLGroupRequest.m */,
+				6102DBFA226DBA8F00726054 /* LLImageUploadRequest.h */,
+				6102DC0A226DBA8F00726054 /* LLImageUploadRequest.m */,
+				6102DBEE226DBA8F00726054 /* LLLogger.h */,
+				6102DBFB226DBA8F00726054 /* LLLogger.m */,
+				6102DBF3226DBA8F00726054 /* LLNetConfigure.h */,
+				6102DC07226DBA8F00726054 /* LLNetConfigure.m */,
+				6102DBFC226DBA8F00726054 /* LLNetWorking.h */,
+				6102DC01226DBA8F00726054 /* LLRequest.h */,
+				6102DBF0226DBA8F00726054 /* LLRequest.m */,
+				6102DC04226DBA8F00726054 /* LLRequestInterceptorProtocol.h */,
+				6102DC03226DBA8F00726054 /* LLResponse.h */,
+				6102DBEF226DBA8F00726054 /* LLResponse.m */,
+				6102DC02226DBA8F00726054 /* LLResponseInterceptorProtocol.h */,
+				6102DBF2226DBA8F00726054 /* LLUploadRequest.h */,
+				6102DC08226DBA8F00726054 /* LLUploadRequest.m */,
+				6102DBF1226DBA8F00726054 /* LLURLManager.h */,
+				6102DC00226DBA8F00726054 /* LLURLManager.m */,
+				6102DC0B226DBA8F00726054 /* LLURLManager+Chain.h */,
+				6102DBF8226DBA8F00726054 /* LLURLManager+Chain.m */,
+				6102DBF7226DBA8F00726054 /* LLURLManager+Group.h */,
+				6102DC0C226DBA8F00726054 /* LLURLManager+Group.m */,
+				6102DBEB226DBA8F00726054 /* NSData+AES.h */,
+				6102DBFE226DBA8F00726054 /* NSData+AES.m */,
+				6102DBED226DBA8F00726054 /* NSDictionary+JSON.h */,
+				6102DBFD226DBA8F00726054 /* NSDictionary+JSON.m */,
+				6102DBFF226DBA8F00726054 /* NSString+AES.h */,
+				6102DBEC226DBA8F00726054 /* NSString+AES.m */,
+				6102DBF4226DBA8F00726054 /* NSString+MD5.h */,
+				6102DC06226DBA8F00726054 /* NSString+MD5.m */,
+			);
+			name = Core;
+			path = ../../../HelloRecognition/HelloRecogition/Net/Core;
+			sourceTree = "<group>";
+		};
 		BAFDB8C2842FD33216C1E243 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -244,7 +291,7 @@
 		CD27606F1FD4F1FB0053D131 /* Net */ = {
 			isa = PBXGroup;
 			children = (
-				CD979AF6216DD761009E43C3 /* Core */,
+				6102DBEA226DBA8F00726054 /* Core */,
 			);
 			path = Net;
 			sourceTree = "<group>";
@@ -397,47 +444,6 @@
 				CD979AEE216DD33D009E43C3 /* NNQRScannerController.m */,
 			);
 			path = QRCode;
-			sourceTree = "<group>";
-		};
-		CD979AF6216DD761009E43C3 /* Core */ = {
-			isa = PBXGroup;
-			children = (
-				CD979AF7216DD761009E43C3 /* NSData+AES.h */,
-				CD979AF8216DD761009E43C3 /* NNConstant.h */,
-				CD979AF9216DD761009E43C3 /* NSString+AES.m */,
-				CD979AFA216DD761009E43C3 /* NSDictionary+JSON.h */,
-				CD979AFB216DD761009E43C3 /* NNRequest.m */,
-				CD979AFC216DD761009E43C3 /* NNURLManager.h */,
-				CD979AFD216DD761009E43C3 /* NNGroupRequest.m */,
-				CD979AFE216DD761009E43C3 /* NSString+MD5.h */,
-				CD979AFF216DD761009E43C3 /* NNLogger.m */,
-				CD979B00216DD761009E43C3 /* NNImageUploadRequest.m */,
-				CD979B01216DD761009E43C3 /* NNChainRequest.h */,
-				CD979B02216DD761009E43C3 /* NNUploadRequest.m */,
-				CD979B03216DD761009E43C3 /* NNURLManager+Chain.h */,
-				CD979B04216DD761009E43C3 /* NNResponse.h */,
-				CD979B05216DD761009E43C3 /* NNNetConfigure.m */,
-				CD979B06216DD761009E43C3 /* NNURLManager+Group.m */,
-				CD979B07216DD761009E43C3 /* NNURLManager.m */,
-				CD979B08216DD761009E43C3 /* NNRequest.h */,
-				CD979B09216DD761009E43C3 /* NSDictionary+JSON.m */,
-				CD979B0A216DD761009E43C3 /* NSData+AES.m */,
-				CD979B0B216DD761009E43C3 /* NSString+AES.h */,
-				CD979B0C216DD761009E43C3 /* NNNetWorking.h */,
-				CD979B0D216DD761009E43C3 /* NNChainRequest.m */,
-				CD979B0E216DD761009E43C3 /* NNImageUploadRequest.h */,
-				CD979B0F216DD761009E43C3 /* NNLogger.h */,
-				CD979B10216DD761009E43C3 /* NNResponseInterceptorProtocol.h */,
-				CD979B11216DD761009E43C3 /* NNRequestInterceptorProtocol.h */,
-				CD979B12216DD761009E43C3 /* NSString+MD5.m */,
-				CD979B13216DD761009E43C3 /* NNGroupRequest.h */,
-				CD979B14216DD761009E43C3 /* NNURLManager+Group.h */,
-				CD979B15216DD761009E43C3 /* NNResponse.m */,
-				CD979B16216DD761009E43C3 /* NNNetConfigure.h */,
-				CD979B17216DD761009E43C3 /* NNURLManager+Chain.m */,
-				CD979B18216DD761009E43C3 /* NNUploadRequest.h */,
-			);
-			path = Core;
 			sourceTree = "<group>";
 		};
 		CDE6B7FD1FD4E6AC00003634 = {
@@ -691,43 +697,44 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD979B23216DD761009E43C3 /* NSData+AES.m in Sources */,
 				CD979AEA216DD2C0009E43C3 /* qrspec.c in Sources */,
 				CD979ADF216DD2C0009E43C3 /* NNScanVideoZoomView.m in Sources */,
 				CD979AE3216DD2C0009E43C3 /* NNScannerResult.m in Sources */,
-				CD979B1A216DD761009E43C3 /* NNRequest.m in Sources */,
-				CD979B1D216DD761009E43C3 /* NNImageUploadRequest.m in Sources */,
-				CD979B1F216DD761009E43C3 /* NNNetConfigure.m in Sources */,
+				6102DC13226DBA8F00726054 /* LLChainRequest.m in Sources */,
 				CD979ADC216DD2C0009E43C3 /* NNQRCodeScanner.m in Sources */,
-				CD979B26216DD761009E43C3 /* NNResponse.m in Sources */,
-				CD979B1E216DD761009E43C3 /* NNUploadRequest.m in Sources */,
-				CD979B22216DD761009E43C3 /* NSDictionary+JSON.m in Sources */,
+				6102DC1B226DBA8F00726054 /* LLUploadRequest.m in Sources */,
+				6102DC15226DBA8F00726054 /* LLLogger.m in Sources */,
+				6102DC14226DBA8F00726054 /* LLURLManager+Chain.m in Sources */,
+				6102DC11226DBA8F00726054 /* LLRequest.m in Sources */,
+				6102DC1C226DBA8F00726054 /* LLGroupRequest.m in Sources */,
+				6102DC17226DBA8F00726054 /* NSData+AES.m in Sources */,
 				CD979AE7216DD2C0009E43C3 /* split.c in Sources */,
 				CD979ADE216DD2C0009E43C3 /* NNScanLineAnimation.m in Sources */,
+				6102DC18226DBA8F00726054 /* LLURLManager.m in Sources */,
+				6102DC16226DBA8F00726054 /* NSDictionary+JSON.m in Sources */,
 				CD979AE0216DD2C0009E43C3 /* NNScanViewStyle.m in Sources */,
-				CD979B25216DD761009E43C3 /* NSString+MD5.m in Sources */,
 				CD979AE6216DD2C0009E43C3 /* qrencode.c in Sources */,
-				CD979B1C216DD761009E43C3 /* NNLogger.m in Sources */,
-				CD979B1B216DD761009E43C3 /* NNGroupRequest.m in Sources */,
+				6102DC1D226DBA8F00726054 /* LLImageUploadRequest.m in Sources */,
 				CD979AE5216DD2C0009E43C3 /* bitstream.c in Sources */,
 				CD979AF2216DD479009E43C3 /* UIResponder+Router.m in Sources */,
+				6102DC10226DBA8F00726054 /* LLResponse.m in Sources */,
+				6102DC12226DBA8F00726054 /* NetDemo.m in Sources */,
 				CD979AE2216DD2C0009E43C3 /* NNScanStyle.m in Sources */,
-				CD979B20216DD761009E43C3 /* NNURLManager+Group.m in Sources */,
 				CD979AE9216DD2C0009E43C3 /* mask.c in Sources */,
-				CD979B19216DD761009E43C3 /* NSString+AES.m in Sources */,
+				6102DC0F226DBA8F00726054 /* NSString+AES.m in Sources */,
 				CD979AEB216DD2C0009E43C3 /* rscode.c in Sources */,
-				CD979B24216DD761009E43C3 /* NNChainRequest.m in Sources */,
 				CDE6B80E1FD4E6AC00003634 /* ViewController.m in Sources */,
 				CD979AE1216DD2C0009E43C3 /* NNScanBaseController.m in Sources */,
 				CD979AE8216DD2C0009E43C3 /* qrinput.c in Sources */,
 				CD979AEF216DD33D009E43C3 /* NNQRScannerController.m in Sources */,
+				6102DC19226DBA8F00726054 /* NSString+MD5.m in Sources */,
+				6102DC1A226DBA8F00726054 /* LLNetConfigure.m in Sources */,
 				CD979AAD216DD0FD009E43C3 /* UIViewController+NNUMengEvent.m in Sources */,
-				CD979B21216DD761009E43C3 /* NNURLManager.m in Sources */,
 				CD979ADD216DD2C0009E43C3 /* NNScanView.m in Sources */,
 				CDE6B8191FD4E6AC00003634 /* main.m in Sources */,
 				CD979ADB216DD2C0009E43C3 /* NNScanNetAnimation.m in Sources */,
 				CD979AB4216DD25F009E43C3 /* NSDate+MJ.m in Sources */,
-				CD979B27216DD761009E43C3 /* NNURLManager+Chain.m in Sources */,
+				6102DC1E226DBA8F00726054 /* LLURLManager+Group.m in Sources */,
 				CD979AB0216DD175009E43C3 /* UIImage+FEBoxBlur.m in Sources */,
 				CDE6B80B1FD4E6AC00003634 /* AppDelegate.m in Sources */,
 			);
