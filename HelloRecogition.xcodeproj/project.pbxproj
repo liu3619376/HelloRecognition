@@ -171,6 +171,20 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		6102DCBE226EF65300726054 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		6102DCBF226EF66400726054 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
 		BAFDB8C2842FD33216C1E243 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -226,40 +240,12 @@
 			path = SecurityUtil;
 			sourceTree = "<group>";
 		};
-		CD979AA5216DCF9E009E43C3 /* Base */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Base;
-			sourceTree = "<group>";
-		};
 		CD979AA6216DCFBA009E43C3 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
 				CD979AEC216DD33D009E43C3 /* QRCode */,
 			);
 			path = Controller;
-			sourceTree = "<group>";
-		};
-		CD979AA7216DCFF0009E43C3 /* Manager */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Manager;
-			sourceTree = "<group>";
-		};
-		CD979AA8216DD010009E43C3 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		CD979AA9216DD038009E43C3 /* Resoruce */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Resoruce;
 			sourceTree = "<group>";
 		};
 		CD979AAA216DD0EE009E43C3 /* UICategory */ = {
@@ -374,11 +360,9 @@
 		CDE6B8081FD4E6AC00003634 /* HelloRecogition */ = {
 			isa = PBXGroup;
 			children = (
-				CD979AA9216DD038009E43C3 /* Resoruce */,
-				CD979AA8216DD010009E43C3 /* Model */,
-				CD979AA7216DCFF0009E43C3 /* Manager */,
+				6102DCBF226EF66400726054 /* Manager */,
+				6102DCBE226EF65300726054 /* Base */,
 				CD979AA6216DCFBA009E43C3 /* Controller */,
-				CD979AA5216DCF9E009E43C3 /* Base */,
 				CD27606E1FD4F1FB0053D131 /* Category */,
 				CD27606F1FD4F1FB0053D131 /* Net */,
 				CD2760701FD4F1FB0053D131 /* Vender */,
