@@ -68,4 +68,17 @@
         }
     }];
 }
+
+
+-(void)demo4
+{
+    [[LLURLManager manager] sendRequestWithConfigBlock:^(LLRequest * _Nullable request) {
+        request.baseURL = @"https://httpbin.org/";
+        request.requestPath = @"post";
+        request.requestMethod = LLRequestTypePost;
+    } complete:^(LLResponse * _Nullable response) {
+        
+    }];
+}
+
 @end
