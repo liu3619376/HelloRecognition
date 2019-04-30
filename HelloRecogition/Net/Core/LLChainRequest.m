@@ -46,13 +46,13 @@
     return self;
 }
 
-- (LLChainRequest *)oLLext:(LLNextBlock)nextBlock {
+- (LLChainRequest *)onNext:(LLNextBlock)nextBlock {
     NSAssert(nextBlock != nil, @"The next block for chain requests can't be nil.");
     [_nextBlockArray addObject:nextBlock];
     return self;
 }
 
-- (LLChainRequest *)oLLextReqeust:(LLRequest *)request {
+- (LLChainRequest *)onNextReqeust:(LLRequest *)request {
     return self;
 }
 
