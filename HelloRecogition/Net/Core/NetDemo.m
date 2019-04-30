@@ -69,6 +69,12 @@
             }
         }
     }];
+    
+    [[LLURLManager manager] sendChainRequest:^(LLChainRequest * _Nullable chainRequest) {
+        
+    } complete:^(NSArray<LLResponse *> * _Nullable responseObjects, BOOL isSuccess) {
+        
+    }];
 }
 
 

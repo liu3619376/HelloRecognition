@@ -10,7 +10,7 @@
 #import "LLRequest.h"
 #import "LLResponse.h"
 @interface LLChainRequest ()
-@property (nonatomic, strong, readwrite) LLRequest *ruLLingRequest;
+@property (nonatomic, strong, readwrite) LLRequest *runningRequest;
 
 @property (nonatomic, strong) NSMutableArray<LLNextBlock> *nextBlockArray;
 @property (nonatomic, strong) NSMutableArray<LLResponse *> *responseArray;
@@ -36,13 +36,13 @@
 - (LLChainRequest *)onFirst:(LLRequestConfigBlock)firstBlock {
     NSAssert(firstBlock != nil, @"The first block for chain requests can't be nil.");
     NSAssert(_nextBlockArray.count == 0, @"The `-onFirst:` method must called befault `-oLLext:` method");
-    _ruLLingRequest = [LLRequest new];
-    firstBlock(_ruLLingRequest);
+    _runningRequest = [LLRequest new];
+    firstBlock(_runningRequest);
     return self;
 }
 
 - (LLChainRequest *)onFirstReqeust:(LLRequest *)request {
-    _ruLLingRequest = request;
+    _runningRequest = request;
     return self;
 }
 
@@ -74,10 +74,10 @@
         return isFinished;
     }
     /// 继续运行
-    _ruLLingRequest = [LLRequest new];
+    _runningRequest = [LLRequest new];
     LLNextBlock nextBlock = _nextBlockArray[_responseArray.count - 1];
     BOOL isSent = YES;
-    nextBlock(_ruLLingRequest, responseObject, &isSent);
+    nextBlock(_runningRequest, responseObject, &isSent);
     if (!isSent) {
         _completeBlock(_responseArray.copy, YES);
         [self cleanCallbackBlocks];
@@ -87,7 +87,7 @@
 }
 
 - (void)cleanCallbackBlocks {
-    _ruLLingRequest = nil;
+    _runningRequest = nil;
     _completeBlock = nil;
     [_nextBlockArray removeAllObjects];
 }
