@@ -26,10 +26,13 @@
 
 -(void)Demo2
 {
-    //多任务 异步请求
-    
-     LLRequest *reques1 = [[LLRequest alloc] init];
-     LLRequest *reques2 = [[LLRequest alloc] init];
+    /*
+     多任务 异步请求
+     reques1、reques2 ....
+     此为每个请求所携带参数
+     */
+    LLRequest *reques1 = [[LLRequest alloc] init];
+    LLRequest *reques2 = [[LLRequest alloc] init];
   
     [[LLURLManager manager] sendGroupRequest:^(LLGroupRequest * _Nullable groupRequest) {
         [groupRequest addRequest:reques1];
