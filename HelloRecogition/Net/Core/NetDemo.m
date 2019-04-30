@@ -27,14 +27,13 @@
 -(void)Demo2
 {
     //多任务 异步请求
-     LLGroupRequest *request = [[LLGroupRequest alloc] init];
+    
      LLRequest *reques1 = [[LLRequest alloc] init];
      LLRequest *reques2 = [[LLRequest alloc] init];
-    [request addRequest:reques1];
-    [request addRequest:reques2];
-    
+  
     [[LLURLManager manager] sendGroupRequest:^(LLGroupRequest * _Nullable groupRequest) {
-        groupRequest = request;
+        [groupRequest addRequest:reques1];
+        [groupRequest addRequest:reques2];
     } complete:^(NSArray<LLResponse *> * _Nullable responseObjects, BOOL isSuccess) {
         if (isSuccess) { // 所有请求都完成
             for (int i=0; i<responseObjects.count; i++) {
